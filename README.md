@@ -6,3 +6,7 @@ LaTeX code for my Bachelor's thesis and presentation, titled "Metodi Supersimmet
 - The articles used to write the thesis are in './articles'
 - The final PDF files are in the './final_pdfs' directory;
 - The templates used are in './templates' \[work in progress\].
+<<<<<<< HEAD
+=======
+
+>>>>>>> ca3764c (lil change)
