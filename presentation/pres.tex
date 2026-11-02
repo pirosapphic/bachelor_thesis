@@ -20,6 +20,7 @@
 
 \usepackage{appendixnumberbeamer}
 \usepackage{mathtools}
+\usepackage{lipsum}
 
 % per l'handout
 % \usepackage{pgfpages}
@@ -34,6 +35,7 @@
 
 \newtheorem{teo}[theorem]{Teorema}
 \newtheorem{de}[theorem]{Definizione}
+\newtheorem{no}[theorem]{Nota}
 \setbeamercolor{block title}{bg=myGreen,fg=white} 
 
 \usepackage{amsmath,physics}
@@ -167,7 +169,8 @@ autovalori e autostati associati sono legati tra loro.
     e applicando l'operatore $A$ a sinistra
     $$\underbrace{AA^\dagger}_{:=H_2} A\ket{E^{(1)}}=EA\ket{E^{(1)}}$$
     si trova che lo stato $A\ket{E^{(1)}}$ è, a meno di normalizzazioni,
-    un autostato di $H_2$ di autovalore $E$, \textbf{se} $A\ket{E^{(1)}}\neq0$.
+    un autostato di $H_2$ di autovalore $E$, \textbf{se}
+    $\mathbf{A\ket{E^{(1)}}\neq0}$.
     Se invece $A\ket{E^{(1)}}=0$, si ha automaticamente che $E=0$ e che non si
     può costruire un autostato di $H_2$ corrispondente.
 \end{columns}
@@ -279,8 +282,8 @@ simmetria.
     \centering
     \includegraphics[width = .75\linewidth]{./SUSY_levels.png}
     \caption{\footnotesize Diagramma riassuntivo dello spettro discreto
-    di due Hamiltoniane partner, con supersimmetria non rotta (sinistra) e
-    spontaneamente rotta (destra).}
+    di due Hamiltoniane \textit{partner}, con supersimmetria non rotta (sinistra)
+    e spontaneamente rotta (destra).}
 \end{figure}
 \end{frame}
 \begin{frame}{Esempio: la buca infinita di potenziale (?)/1}
@@ -298,14 +301,14 @@ E^{(1)}_n = \frac{\pi^2\hbar^2}{2mL^2}n(n+2),\quad
   \text{con }n=0,1,2,3...$$
 Come esplicitato in precedenza, dallo stato fondamentale si può ricavare il
 superpotenziale corrispondente a $V_1$:
-$$W_1(x) = -\frac{\hbar}{\sqrt{2m}}\frac{\psi'^{(1)}_0(x)}{\psi_0^{(1)}(x)} = 
+$$W(x) = -\frac{\hbar}{\sqrt{2m}}\frac{\psi'^{(1)}_0(x)}{\psi_0^{(1)}(x)} = 
 -\frac{\hbar\pi}{L\sqrt{2m}}\cot\left(\frac{\pi x}{L}\right).
 $$
 \end{frame}
 \begin{frame}{Esempio: la buca infinita di potenziale (?)/2}
-    Il potenziale $V_2$, partner di $V_1$, può essere ricavato dalla sua
+    Il potenziale $V_2$, \textit{partner} di $V_1$, può essere ricavato dalla sua
     definizione
-    $$V_2(x)= \frac{\pi^2\hbar^2}{2mL^2}\left[2\csc^2\left(\frac{\pi x}{L}
+    $$V_2(x)= \frac{\pi^2\hbar^2}{2mL^2}\left[2\sin^{-2}\left(\frac{\pi x}{L}
     \right)-1\right]$$
 e, per le proprietà sopra citate della Supersimmetria non rotta, il suo spettro
 energetico è semplicemente
@@ -316,12 +319,12 @@ utilizzando l'espressione esplicita di $A$:
 $$\psi^{(2)}_0(x)=A\psi_1^{(1)}(x) = \sin^2\left(\frac{\pi x}{L}\right)$$
 e similmente tutte le altre.
 \end{frame}
-\begin{frame}{Shape Invariance}
+\begin{frame}{\textit{Shape Invariance}}
     \begin{columns}
     \column{.5\linewidth}
     Considerando un superpotenziale $W(x;a_1)$ dipendente da un insieme di
     parametri $a_1$
-    si costruiscono due potenziali partner supersimmetrici
+    si costruiscono due potenziali \textit{partner} supersimmetrici
     $V_1(x;a_1),V_2(x,a_1)$ anch'essi dipendenti dai parametri $a_1$.
     \begin{de}
     Due potenziali partner supersimmetrici $V_1,V_2$ si dicono shape invariant se
@@ -346,9 +349,10 @@ e similmente tutte le altre.
 \begin{frame}{Operatori scala generalizzati/1}
     \begin{columns}
     \column{0.5\linewidth}
-    Ricordando che $H_1,H_2$ sono partner supersimmetriche, vale la relazione
+    Ricordando che $H_1,H_2$ sono \textit{partner} supersimmetriche, vale la
+    relazione
     $$\psi_1^{(1)}(x;a_1) = A^\dagger(a_1)\psi^{(2)}_0(x;a_1)$$
-    dunque, per la proprietà di shape invariance,
+    dunque, per la proprietà di \textit{shape invariance},
     $$\psi_1^{(1)}(x;a_1)=A^\dagger(a_1)\psi^{(1)}_0(x;a_2)$$
     Questo processo può essere generalizzato per costruire \textit{tutti} gli stati
     eccitati di $H_1(a_1)$ a partire dallo stato fondamentale.
@@ -390,7 +394,7 @@ $$\psi_1^{(1)}(x;a_1) = A_1^\dagger\psi_0^{(2)}(x;a_1) = A_1^\dagger
 \psi_0^{(1)}(x;a_2)$$
 quella del secondo è
 $$\psi_2^{(1)}(x;a_1) = A^\dagger_1A^\dagger_2\psi_0^{(3)}(x;a_1)$$
-Applicando due volte la shape invariance
+Applicando due volte la \textit{shape invariance}
 $$\psi_2^{(1)}(x;a_1)= A_1^\dagger A_2^\dagger\psi_0^{(1)}(x;a_3).$$
 Iterando questo processo si ottiene che l'$n-$esima autofunzione vale
 $$\psi_n^{(1)}(x;a_1)=A_1^\dagger \psi_{n-1}^{(1)}(x;a_2)=
@@ -403,8 +407,71 @@ $$
     \includegraphics[width = .7\linewidth]{./shape_inv.png}
     \caption{Diagramma per la costruzione del terzo stato eccitato di $H_1(a_1)$.}
 \end{figure}
+\end{frame}
+\begin{frame}{Esempio: l'oscillatore armonico isotropo/1}
+Tutte le considerazioni precedenti sono valide anche per le equazioni
+di Schrödinger radiali ridotte associate a potenziali radiali: ponendo 
+$\hbar = 2m = 1$, si consideri il superpotenziale
+$$W(r;l)=\frac{\omega r}{2}-\frac{l+1}{r},$$
+a cui sono associati i due potenziali \textit{partner}
+\begin{equation*}
+\begin{dcases}
+V_1(r;l)=\frac{\omega^2r^2}{4}+\frac{l(l+1)}{r^2}-\left(l+\frac{3}{2}\right)\omega\\
+V_2(r;l)=\frac{\omega^2r^2}{4}+\frac{(l+1)(l+2)}{r^2}-\left(l+\frac{1}{2}\right)
+\omega
+\end{dcases}:
+\end{equation*}
+è facile mostrare che sono \textit{shape invariant}, infatti
+$$V_2(r;l) = V_1(r;l+1)+2\omega,$$
+con $f(a_1=l)=l+1$ e $R(a_1=l)=2\omega$.
+\end{frame}
+\begin{frame}{Esempio: l'oscillatore armonico isotropo/2}
+La supersimmetria è non rotta, infatti la funzione d'onda radiale ridotta dello
+stato fondamentale
+$$R_0^{(1)}(r;l) = \exp\left[-\int_{r_0>0}^r \dd \rho \frac{\omega\rho}{2}
+-\frac{l+1}{\rho}\right] = r^{l+1}e^{-\frac{\omega}{4}r^2}$$
+è normalizzabile. Dalle proprietà della \textit{shape invariance} appena ricavate
+si può determinare lo spettro energetico
+$$E_n^{(1)}(l)=\sum_{k=1}^{n}R(a_k)=\sum_{k=1}^{n}2\omega = 2n\omega,$$
+e, ricorsivamente, tutte le funzioni d'onda radiali ridotte, la prima è
+$$R_1^{(1)}(r;l)=A^\dagger(l)R_0^{(1)}(r;l+1)=(\omega r^2-2l-3)r^{l+1}
+e^{-\frac{\omega}{4}r^2}.$$
+\end{frame}
+\begin{frame}{Esempio: l'oscillatore armonico isotropo/3}
+    \begin{columns}
+    \column{.55\textwidth}
+    Per la teoria generale sui potenziali radiali, le autofunzioni complete sono
+    \begin{align*}
+    &\psi^{(1)}_{0lm}(r,\vartheta,\varphi) = r^le^{-\frac{\omega}{4}r^2}Y_{lm}
+    (\vartheta,\varphi)\\
+    &\psi_{1lm}(r,\vartheta,\varphi) = (\omega r^2-2l-3)r^{l}e^
+    {-\frac{\omega}{4}r^2}Y_{lm}(\vartheta,\varphi).
+    \end{align*}
+    \begin{no}
+    Il numero quantico $n$ qui utilizzato non è il medesimo utilizzato nella
+    trattazione dell'oscillatore armonico isotropo su molti testi di Meccanica
+    Quantistica: esso corrisponde a $N = 2n+l$. 
+    \end{no}
+    \column{.45\textwidth}
+    Queste due autofunzioni sono esattamente quelle che si ricavano risolvendo
+    analiticamente il problema: si nota infatti che
+    $$(\omega r^2 - 2l - 3)\propto L_{1}^{\left(l+\frac{1}{2}\right)}\left(
+    \frac{\omega}{2}r^2\right)$$
+    dove $L_k^{(\alpha)}(x)$ sono i polinomi generalizzati di Laguerre.
+    \end{columns}
+\end{frame}
+
+
+\begin{frame}{Metodo SWKB}
 
 \end{frame}
+\begin{frame}{SWKB del primo ordine}
+
+\end{frame}
+\begin{frame}{SWKB e \textit{shape invariance}}
+
+\end{frame}
+
 
 
 
@@ -475,6 +542,5 @@ Grazie per l'attenzione!
 %\chronoevent[date=false]{2020}{matrix models \\ renormalons \\ path integrals \\ strings}
 %\stopchronology
 %\end{frame}
-
 \end{document}
 
