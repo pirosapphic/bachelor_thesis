@@ -1,0 +1,283 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{cooper_main}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=0dcc1fd02918bc0ba2e56e4350ccc6c5}{%
+           family={Cooper},
+           familyi={C\bibinitperiod},
+           given={Fred},
+           giveni={F\bibinitperiod}}}%
+        {{hash=bf1efca9a46eeb2390de0ecae44f4be3}{%
+           family={Khare},
+           familyi={K\bibinitperiod},
+           given={Avinash},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9d68ab843194359a2b7b0f41bad766aa}{%
+           family={Sukhatme},
+           familyi={S\bibinitperiod},
+           given={Uday},
+           giveni={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{4788984ca51743308271790ffdcffd32}
+      \strng{fullhash}{0347946c3736e6b91c10ce275f188d69}
+      \strng{fullhashraw}{0347946c3736e6b91c10ce275f188d69}
+      \strng{bibnamehash}{0347946c3736e6b91c10ce275f188d69}
+      \strng{authorbibnamehash}{0347946c3736e6b91c10ce275f188d69}
+      \strng{authornamehash}{4788984ca51743308271790ffdcffd32}
+      \strng{authorfullhash}{0347946c3736e6b91c10ce275f188d69}
+      \strng{authorfullhashraw}{0347946c3736e6b91c10ce275f188d69}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In the past ten years, the ideas of supersymmetry have been profitably applied to many nonrelativistic quantum mechanical problems. In particular, there is now a much deeper understanding of why certain potentials are analytically solvable and an array of powerful new approximation methods for handling potentials which are not exactly solvable. In this report, we review the theoretical formulation of supersymmetric quantum mechanics and discuss many applications. Exactly solvable potentials can be understood in terms of a few basic ideas which include supersymmetric partner potentials, shape invariance and operator transformations. Familiar solvable potentials all have the property of shape invariance. We describe new exactly solvable shape invariant potentials which include the recently discovered self-similar potentials as a special case. The connection between inverse scattering, isospectral potentials and supersymmetric quantum mechanics is discussed and multi-soliton solutions of the KdV equation are constructed. Approximation methods are also discussed within the framework of supersymmetric quantum mechanics and in particular it is shown that a supersymmetry inspired WKB approximation is exact for a class of shape invariant potentials. Supersymmetry ideas give particularly nice results for the tunneling rate in a double well potential and for improving large \$N\$ expansions. We also discuss the problem of a charged Dirac particle in an external magnetic field and other potentials in terms of supersymmetric quantum mechanics. Finally, we discuss structures more general than supersymmetric quantum mechanics such as parasupersymmetric quantum mechanics in which there is a symmetry between a boson and a para-fermion of order \$p\$.}
+      \field{issn}{03701573}
+      \field{journaltitle}{Physics Reports}
+      \field{month}{1}
+      \field{note}{arXiv:hep-th/9405029}
+      \field{number}{5-6}
+      \field{title}{Supersymmetry and {Quantum} {Mechanics}}
+      \field{urlday}{19}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{volume}{251}
+      \field{year}{1995}
+      \field{urldateera}{ce}
+      \field{pages}{267\bibrangedash 385}
+      \range{pages}{119}
+      \verb{doi}
+      \verb 10.1016/0370-1573(94)00080-M
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/hep-th/9405029
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/hep-th/9405029
+      \endverb
+      \keyw{High Energy Physics - Theory}
+    \endentry
+    \entry{khare_short}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=bf1efca9a46eeb2390de0ecae44f4be3}{%
+           family={Khare},
+           familyi={K\bibinitperiod},
+           given={Avinash},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{bf1efca9a46eeb2390de0ecae44f4be3}
+      \strng{fullhash}{bf1efca9a46eeb2390de0ecae44f4be3}
+      \strng{fullhashraw}{bf1efca9a46eeb2390de0ecae44f4be3}
+      \strng{bibnamehash}{bf1efca9a46eeb2390de0ecae44f4be3}
+      \strng{authorbibnamehash}{bf1efca9a46eeb2390de0ecae44f4be3}
+      \strng{authornamehash}{bf1efca9a46eeb2390de0ecae44f4be3}
+      \strng{authorfullhash}{bf1efca9a46eeb2390de0ecae44f4be3}
+      \strng{authorfullhashraw}{bf1efca9a46eeb2390de0ecae44f4be3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{An elementary introduction is given to the subject of Supersymmetry in Quantum Mechanics. We demonstrate with explicit examples that given a solvable problem in quantum mechanics with n bound states, one can construct new exactly solvable n Hamiltonians having n-1,n-2,...,0 bound states. The relationship between the eigenvalues, eigenfunctions and scattering matrix of the supersymmetric partner potentials is derived and a class of reflectionless potentials are explicitly constructed. We extend the operator method of solving the one-dimensional harmonic oscillator problem to a class of potentials called shape invariant potentials. Further, we show that given any potential with at least one bound state, one can very easily construct one continuous parameter family of potentials having same eigenvalues and s-matrix. The supersymmetry inspired WKB approximation (SWKB) is also discussed and it is shown that unlike the usual WKB, the lowest order SWKB approximation is exact for the shape invariant potentials. Finally, we also construct new exactly solvable periodic potentials by using the machinery of supersymmetric quantum mechanics.}
+      \field{booktitle}{{AIP} {Conference} {Proceedings}}
+      \field{issn}{0094243X}
+      \field{note}{arXiv:math-ph/0409003}
+      \field{title}{Supersymmetry in {Quantum} {Mechanics}}
+      \field{urlday}{19}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{volume}{744}
+      \field{year}{2004}
+      \field{urldateera}{ce}
+      \field{pages}{133\bibrangedash 165}
+      \range{pages}{33}
+      \verb{doi}
+      \verb 10.1063/1.1853201
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/math-ph/0409003
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/math-ph/0409003
+      \endverb
+      \keyw{Mathematical Physics,High Energy Physics - Theory,Quantum Physics}
+    \endentry
+    \entry{zwiebach}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=8ad5fb9deefef9b65c1b7d834cf7c981}{%
+           family={Zwiebach},
+           familyi={Z\bibinitperiod},
+           given={Barton},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, MA}%
+      }
+      \list{publisher}{1}{%
+        {The MIT Press}%
+      }
+      \strng{namehash}{8ad5fb9deefef9b65c1b7d834cf7c981}
+      \strng{fullhash}{8ad5fb9deefef9b65c1b7d834cf7c981}
+      \strng{fullhashraw}{8ad5fb9deefef9b65c1b7d834cf7c981}
+      \strng{bibnamehash}{8ad5fb9deefef9b65c1b7d834cf7c981}
+      \strng{authorbibnamehash}{8ad5fb9deefef9b65c1b7d834cf7c981}
+      \strng{authornamehash}{8ad5fb9deefef9b65c1b7d834cf7c981}
+      \strng{authorfullhash}{8ad5fb9deefef9b65c1b7d834cf7c981}
+      \strng{authorfullhashraw}{8ad5fb9deefef9b65c1b7d834cf7c981}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{"An extensive introduction to quantum mechanics for undergraduate physics majors, based on the required MIT course and refined for the popular "Mastering Quantum Mechanics" edX course"--}
+      \field{isbn}{9780262046138}
+      \field{shorttitle}{Mastering quantum mechanics}
+      \field{title}{Mastering quantum mechanics: essentials, theory, and applications}
+      \field{year}{2022}
+      \keyw{Quantum theory}
+    \endentry
+    \entry{dutt_swkb}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=0e43ab049cb2537ba9843752a5de5c51}{%
+           family={Dutt},
+           familyi={D\bibinitperiod},
+           given={Ranabir},
+           giveni={R\bibinitperiod}}}%
+        {{hash=bf1efca9a46eeb2390de0ecae44f4be3}{%
+           family={Khare},
+           familyi={K\bibinitperiod},
+           given={Avinash},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9d68ab843194359a2b7b0f41bad766aa}{%
+           family={Sukhatme},
+           familyi={S\bibinitperiod},
+           given={Uday},
+           giveni={U\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{75523a1f823199b5f497bff28cef5d94}
+      \strng{fullhash}{90e0aff21a58292a5d2e4a5461e679cf}
+      \strng{fullhashraw}{90e0aff21a58292a5d2e4a5461e679cf}
+      \strng{bibnamehash}{90e0aff21a58292a5d2e4a5461e679cf}
+      \strng{authorbibnamehash}{90e0aff21a58292a5d2e4a5461e679cf}
+      \strng{authornamehash}{75523a1f823199b5f497bff28cef5d94}
+      \strng{authorfullhash}{90e0aff21a58292a5d2e4a5461e679cf}
+      \strng{authorfullhashraw}{90e0aff21a58292a5d2e4a5461e679cf}
+      \field{extraname}{1}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The supersymmetry-inspired WKB approximation (SWKB) in quantum mechanics is discussed in detail. The SWKB method can be easily applied to any potential whose ground-state wave function is known. It yields eigenvalues that are exact for large quantum numbers n (as any WKB approximation should in the classical limit). Furthermore, for the important special case of ‘‘shape-invariant’’ potentials, the SWKB approach gives the exact analytic expressions for the entire bound-state spectra. A study of some nonshape-invariant, but solvable, potentials suggests that shape invariance is not only sufficient but perhaps even necessary for the SWKB approximation to be exact. A comparison of the WKB and SWKB predictions for the bound-state spectra of a number of potentials reveals that in many cases the SWKB approach does better than the usual WKB approximation.}
+      \field{issn}{0002-9505, 1943-2909}
+      \field{journaltitle}{American Journal of Physics}
+      \field{month}{8}
+      \field{number}{8}
+      \field{title}{Supersymmetry-inspired {WKB} approximation in quantum mechanics}
+      \field{urlday}{19}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{volume}{59}
+      \field{year}{1991}
+      \field{urldateera}{ce}
+      \field{pages}{723\bibrangedash 727}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1119/1.16840
+      \endverb
+      \verb{urlraw}
+      \verb https://pubs.aip.org/ajp/article/59/8/723/1038585/Supersymmetry-inspired-WKB-approximation-in
+      \endverb
+      \verb{url}
+      \verb https://pubs.aip.org/ajp/article/59/8/723/1038585/Supersymmetry-inspired-WKB-approximation-in
+      \endverb
+    \endentry
+    \entry{dutt_ref_in_ref}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=df7e462d67a3b069d5fed5022236816b}{%
+           family={Dutt},
+           familyi={D\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=276ee1693a5fca487f52883427ac59b0}{%
+           family={Gangopadhyaya},
+           familyi={G\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=bf1efca9a46eeb2390de0ecae44f4be3}{%
+           family={Khare},
+           familyi={K\bibinitperiod},
+           given={Avinash},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b0f70cb6ab05b84b7b94adf33745b504}{%
+           family={Pagnamenta},
+           familyi={P\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e3d3f54b984aac5ae064fbaf06bbf186}{%
+           family={Sukhatme},
+           familyi={S\bibinitperiod},
+           given={U.},
+           giveni={U\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{53222644dba90b009db16724e71e0c19}
+      \strng{fullhash}{1e0e7a526452c1f94fa3260041557a4c}
+      \strng{fullhashraw}{1e0e7a526452c1f94fa3260041557a4c}
+      \strng{bibnamehash}{1e0e7a526452c1f94fa3260041557a4c}
+      \strng{authorbibnamehash}{1e0e7a526452c1f94fa3260041557a4c}
+      \strng{authornamehash}{53222644dba90b009db16724e71e0c19}
+      \strng{authorfullhash}{1e0e7a526452c1f94fa3260041557a4c}
+      \strng{authorfullhashraw}{1e0e7a526452c1f94fa3260041557a4c}
+      \field{extraname}{2}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1050-2947, 1094-1622}
+      \field{journaltitle}{Physical Review A}
+      \field{month}{9}
+      \field{number}{3}
+      \field{title}{Semiclassical approach to quantum-mechanical problems with broken supersymmetry}
+      \field{urlday}{19}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{volume}{48}
+      \field{year}{1993}
+      \field{urldateera}{ce}
+      \field{pages}{1845\bibrangedash 1853}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1103/PhysRevA.48.1845
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevA.48.1845
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevA.48.1845
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

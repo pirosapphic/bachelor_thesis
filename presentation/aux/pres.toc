@@ -1,0 +1,5 @@
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
+\beamer@sectionintoc {1}{Intro}{1}{0}{1}
+\beamer@sectionintoc {2}{SUSY Algebra}{3}{0}{2}
+\beamer@sectionintoc {3}{Conclusioni}{19}{0}{3}

@@ -1,0 +1,36 @@
+\newpage
+\thispagestyle{empty}
+{\Huge \textbf{Appendix}}
+\addcontentsline{toc}{chapter}{Appendix}
+\setcounter{chapter}{4}
+\addtocontents{toc}{\protect\setcounter{tocdepth}{0}}
+\section{Infinte square well}
+\setcounter{section}{1}
+\label{app:square_wave}
+
+Here are shown the calculations for the ground state wavefunction of the
+potential $V_2$ determined in Section \ref{sec:square_well}:
+\begin{align*}
+&\psi^{(2)}_0(x)=\frac{1}{\sqrt{E^{(1)}_1}}\hat A\psi^{(1)}_1 = \frac{1}{\sqrt{E_1}}\left[
+\frac{\hbar}{\sqrt{2m}}\dv[]{}{x}+W(x)\right]\psi^{(1)}_1(x)=\\
+&=\sqrt{\frac{2mL^2}{\pi^2\hbar^2\cdot1(1+2)}}\frac{\hbar}{\sqrt{2m}}\left[\dv[]{}{x}-\frac{\pi}{L}
+\cot\left(\frac{\pi x}{L}\right)\right]\sqrt{\frac{2}{L}}\sin\left(\frac{2\pi x}{L}\right) =\\
+&=\sqrt{\frac{2}{3L}}\left[2\cos\left(\frac{2\pi x}{L}\right) - \frac{\cos\left(\frac{\pi x}{L}\right)}
+{\sin\left(\frac{\pi x}{L}\right)}2\cos\left(\frac{\pi x}{L}\right)\sin\left(\frac{\pi x}{L}\right)\right]=
+-2\sqrt{\frac{2}{3L}}\sin^2\left(\frac{\pi x}{L}\right)
+\end{align*}
+
+ The first excited state is
+$$\psi^{(2)}_1(x)=\frac{1}{\sqrt{E^{(1)}_2}}\hat A\psi^{(1)}_2$$
+letting $\alpha :=\frac{\pi x}{L}$ this becomes
+\begin{align*}
+&\psi^{(2)}_1(x)= \sqrt{\frac{2mL^2}{\pi^2\hbar^2\cdot2(2+2)}}\frac{\hbar}{\sqrt{2m}}
+\left[\frac{\pi}{L}\dv[]{}{\alpha} - \frac{\pi}{L}\cot(\alpha)\right]\sqrt{\frac{2}{L}}\sin(3\alpha)=\\
+&=\frac{1}{2\sqrt{L}}\left[3\cos(3\alpha)-\cot(\alpha)\sin(3\alpha)\right]=\\
+&= \frac{1}{2\sqrt{L}}\left[3\left(4\cos^3(\alpha)-3\cos(\alpha)\right)-\cot(\alpha)\left(3\sin(\alpha)
+-4\sin^3(\alpha)\right)\right]=\\
+&=\frac{2}{\sqrt{L}}\cos(\alpha)\left[3\cos^2(\alpha)+\sin^2(\alpha)-3\right]=\\
+&=\frac{4}{\sqrt{L}}\cos(\alpha)(\cos^2(\alpha)-1)=-\frac{2}{\sqrt{L}}\sin\left(\frac{\pi x}{L}\right)
+\sin\left(\frac{2\pi x}{L}\right)
+\end{align*}
+

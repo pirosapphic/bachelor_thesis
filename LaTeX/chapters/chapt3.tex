@@ -1,0 +1,132 @@
+%--------------------------------------------------------------------------------------
+\thispagestyle{empty}
+\chapter{Supersymmetric WKB}
+The Wentzel–Kramers–Brillouin (WKB) approximation is a well known method of finding
+asymptotic series in powers of $\hbar$ for the energy eigenvalues and eigenfunctions
+of Schrödinger's equation: for bound states in a generalized potential well $V(x)$
+which obeys the WKB condition
+$$\left|\frac{\hbar p'(x)}{p^2}\right| =
+\left|\frac{\hbar m\pdv[]{V}{x}}{p^3}\right|<<1\text{, where}
+\; p(x):=\sqrt{2m\left[E-V(x)\right]}$$
+i.e. slowly varying potentials and high momentum, the first semi-classical
+correction yields a quantization condition for the first order of the energy
+eigenvalues
+\begin{equation}
+\int_{x_1}^{x_2}\dd y \sqrt{2m\left[E_n-V(y)\right]}=\left(n+\frac{1}{2}\right)
+\hbar\pi,
+\label{eq:WKB_quant}
+\end{equation}
+with $V(x_1) = V(x_2) = E_n$.
+It will be shown that this condition can yield more precise results using a
+supersymmetric approach called the SWKB approximation.
+
+\textbf{Note} In this chapter the $\hbar$ and $m$ dependencies of the potentials
+will be explicit, since they are necessary for the WKB approximation.
+\section{Lowest order SWKB: unbroken Supersymmetry}
+Consider two supersymmetric partner potentials
+$$
+\begin{dcases*}
+V_1(x) = W^2(x)-\frac{\hbar}{\sqrt{2m}}W'(x)\\
+V_2(x) = W^2(x)+\frac{\hbar}{\sqrt{2m}}W'(x)
+\end{dcases*}
+$$
+so that, formally, $W(x) = O(\hbar^0)$ and
+$\hbar W'(x) = O(\hbar)$: the condition (\ref{eq:WKB_quant}) for $V_1$
+is
+$$\int_{x_1}^{x_2}\dd y\sqrt{2m\left[E^{(1)}_n-W^2(y)+\frac{\hbar}{\sqrt{2m}}W'(y)
+\right]}=\left(n+\frac{1}{2}\right)\hbar\pi;
+$$
+expanding the integrand in powers of $\hbar$ yields
+$$\sqrt{2m\left(E_n^{(1)}-W^2(y)\right)}+\frac{\hbar}{2}\frac{W'(y)}{\sqrt{E-W^2(y)}}+
+O(\hbar^2),$$
+the condition $V_1(x_1)=V_1(x_2)=E^{(1)}_n$ must be truncated at $O(\hbar^0)$
+and so becomes
+$$W^2(a)=W^2(b)=E_n^{(1)}\text{, where }
+x_1 = a + O(\hbar),\;x_2 = b + O(\hbar).$$
+The condition (\ref{eq:WKB_quant}) becomes
+$$\int_{a}^{b}\dd y \sqrt{2m\left(E_n^{(1)}-W^2(y)\right)}+\frac{\hbar}{2}
+\int_{a}^{b}\dd y \frac{W'(y)}{\sqrt{E^{(1)}_n-W^2(y)}}=\left(n+\frac{1}{2}\right)
+\hbar\pi,$$
+the second integral is elementar and its value is
+$$\eval{\arcsin\left(\frac{W(y)}{\sqrt{E^{(1)}_n}}\right)}_a^b.$$
+Supposing Supersymmetry is unbroken, conditions (\ref{eq:lim_W}) imply
+$$-W(a)=W(b)=\sqrt{E^{(1)}_n}$$
+that is
+$$\eval{\arcsin\left(\frac{W(y)}{\sqrt{E^{(1)}_n}}\right)}_a^b=\pi.$$
+So, with the hypothesis of unbroken Supersymmetry, the first order SWKB
+quantization condition on $V_1(x)$ is
+\begin{equation}
+\int_{a}^{b}\dd y \sqrt{2m\left(E^{(1)}_n-W^2(y)\right)} = n\hbar\pi.
+\label{eq:SWKB_quant_V1}
+\end{equation}
+The calculations for $V_2(x)$ are exactly the same, save a negative sign before the
+$O(\hbar)$ term: its SWKB quantization condition is
+\begin{equation}
+\int_{a}^{b}\dd y \sqrt{2m\left(E^{(2)}_n-W^2(y)\right)} = (n+1)\hbar\pi.
+\label{eq:SWKB_quant_V2}
+\end{equation}
+The advantages of this method are immediately clear: since the integrand
+is strictly positive $\forall y\in[a,b]$, the quantization condition of $V_1$
+with $n=0$ implies that the extrema of integration must coincide, so
+$$W(a)=-W(b)=-W(a)=0=\sqrt{E^{(1)}_0}:$$
+the ground state eigenvalue is exactly known to be
+$E^{(1)}_0=0$ just from the first $\hbar$ order; moreover, these approximations
+for the eigenvalues of the partner potentials respect the fundamental property of 
+supersymmetric partner potentials $E^{(1)}_{n+1}=E^{(2)}_n$.
+
+\textbf{Note} The regular WKB approximation yields better results the
+greater is $n$, but this supersymmetric method is also exact for the ground state
+energy: given this other constraint, it is natural to think that the SWKB method
+will be, in general, a better approximation in the case of unbroken Supersymmetry.
+
+\section{Lowest order SWKB: broken Supersymmetry}
+The derivation of the new quantization condition for broken supersymmetry
+is similar to the one for unbroken supersymmetry, with the key difference being
+that at the $O(\hbar^0)$ turning points the superpotential must have the same
+sign, as discussed after the definition of unbroken Supersymmetry:
+$$W(a) = W(b) = \sqrt{E_n^{(1)}}$$
+and so the $O(\hbar)$ integral vanishes for both $V_1$ and $V_2$, yielding
+$$\int_a^b \dd y \sqrt{2m\left(E_n^{(i)}-W^2(y)\right)} = \left(n+\frac{1}{2}
+\right)\hbar\pi$$\\
+
+\textbf{Note} The reason why the SWKB method yields better results than regular
+WKB for both unbroken and broken supersymmetry lies in the fact that the
+factorization of supersymmetric partner Hamiltonians uncovers a term in the
+potential that is $O(\hbar^1)$, that can be taken out of the quantization
+condition integral and absorbed in the constant of the right hand side of the
+regular WKB condition. For further discussion on broken supersymmetry,
+see \cite{dutt_ref_in_ref}, as cited in \cite{cooper_main}
+\section{SWKB for Shape Invariant Potentials}
+This method is especially powerful for shape invariant potentials: consider the
+family of potentials (\ref{eq:SIP_family})
+$$V_s(x;a_1) = V_1(x;a_s) + \sum_{k=1}^{s-1}R(a_k):$$
+the SWKB condition (\ref{eq:SWKB_quant_V1}) for the Hamiltonian $\hat H_1$ has the form
+$$\int_{a}^{b}\dd y \sqrt{2m\left(E_n^{(1)}-W^2(y,a_s)\right)} = 
+\int_{a}^{b}\dd y \sqrt{2m\left(E_n^{(s)}-\sum_{k=1}^{s-1}R(a_k)-W^2(x;a_s)\right)} = n\hbar\pi.$$
+If supersymmetry is unbroken, as argued before, the quantization condition is
+exact for the ground state energy
+$$E^{(1)}_0 = 0 \iff E^{(s)}_0 = \sum_{k=1}^{s-1}R(a_k):$$
+since all the potentials are shape invariant, this implies that the ground state energy \textit{for each
+Hamiltonian} $\hat H_s$ is exact, moreover, for the properties discussed in the
+previous chapter
+$$E^{(s+1)}_0 = E_s^{(1)}$$
+and so \textbf{all} the energy eigenvalues of ${\hat H_1}$ are exactly determined by the SWKB
+quantization condition: this is a remarkable result, as the class of shape
+invariant potentials is bigger than the class of known analytically solvable
+potentials.
+
+
+
+
+\COMMENT{
+%explicit vs implicit \hbar dependency in W(x) and V_i(x), MF said it is unclear
+\textbf{Note} This derivation is founded on the assumption that $W(x) =
+O(\hbar^0)$ and $\hbar W'(x)=O(\hbar)$: this condition seems to imply that
+this quantization condition holds only for potentials that contain an $O(\hbar)$
+term, but it is always possible to absorb the $\hbar$ dependency with a choice of
+dimensional parameters;
+for example the superpotential for the reflectionless potentials yields
+$$W(x;B) = B\tanh(x) \longrightarrow V_1(x;B) = B^2 - B(B+\hbar)\cosh^{-2}(x):$$
+a choice of parameter $B$ so that $B(B+\hbar)$ is independent of $\hbar$ yields
+an $O(\hbar^0)$ potential, with a constant $O(\hbar)$ energy
+offset, which can always be discarded.}

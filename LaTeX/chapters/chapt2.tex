@@ -1,0 +1,252 @@
+%------------------------------------------------------------------------------------------------
+\newpage
+\chapter{Shape Invariance}
+\thispagestyle{empty}
+This chapter will introduce a stricter condition on supersymmetric partner potentials, called
+\textit{shape invariance}: the intuition behind this concept is the fact that certain
+potentials resemble one another and differ only in the choice of fixed parameters
+and/or constant energy offsets.
+
+Here the formalization is presented and it is proven that this condition is
+a sufficient hypothesis to devise a generalization of the ladder operators, normally
+employed in the solution of the quantum harmonic oscillator; finally, some applications
+will be discussed in detail.
+\section{Definition and fundamental properties}
+\begin{defn}
+Two supersymmetric partner potentials,
+\begin{gather*}
+V_1(x;a_1) = W'(x;a_1) - W^2(x;a_1)\\
+V_2(x;a_1) = W'(x;a_1) + W^2(x;a_1),
+\end{gather*}
+dependent from a set of parameters $a_1$, are called \textit{shape invariant} if and only if
+\begin{equation}
+V_2(x;a_1) = V_1(x;a_2)+R(a_1),
+\label{eq:SIP}
+\end{equation}
+where $a_2 = f(a_1)$ and $R(a_1)$ does not depend on $x$.
+\label{def:SIP}
+\end{defn}
+From this definition follows the fundamental property of shape invariant potentials:
+adding the kinetic operator to equation (\ref{eq:SIP}) gives
+$$\hat H_2(a_1) = \hat H_1(a_2)+R(a_1)\longrightarrow\hat H_1(a_2) = \hat H_2(a_1)-R(a_1).$$
+Since the Hamiltonians differ by a constant, their eigenfunctions must be proportional to
+one another and the corresponding energy eigenvalues must differ only by the constant
+$R(a_1)$:
+%using the ground state of $\hat H_1(a_2)$ implies that,
+if Supersymmetry is unbroken,
+the ground state energy for $\hat H_2(a_1)$ is then known to be
+$$E^{(2)}_0(a_1) = E^{(1)}_0(a_2)+R(a_1)=R(a_1)$$
+and the ground states of $\hat H_1(a_2)$ and $\hat H_2(a_1)$ are proportional
+$$\psi^{(1)}_0(x;a_2)=\psi^{(2)}_0(x;a_1)=N\exp\left[-\int_{x_0}^{x}\dd y W(y;a_2)
+\right].$$
+From the properties of Supersymmetry follows that
+$$\psi_1^{(1)}(x;a_1)=\hat A^\dagger(a_1)\psi^{(2)}_0(x;a_1)\Rightarrow
+\psi^{(1)}_1(x;a_1)=\hat A^\dagger(a_1)\psi^{(1)}_0(x;a_2).$$
+Since the function $f$ that relates $a_2=f(a_1)$ is known, the shape invariance condition
+implies a relationship between the ground state wavefunction and the first excited state!
+This process can be generalized to construct \textit{all} bound states of $\hat H_1(a_1)$.
+\section{Generalized ladder operator method}
+To generalize the relationship found in the previous section, a family of Hamiltonians must be
+constructed from two supersymmetric partner potentials and
+the function $f$, which completely determines the shape invariance:
+starting from the partner potentials $V_1(x;a_1)$ and $V_2(x;a_1)$, 
+consider the family of potentials
+\begin{equation}
+V_s(x;a_1):=V_1(x;a_s)+\sum_{k=1}^{s-1}R(a_k),\text{with }s=1,2...
+\label{eq:SIP_family}
+\end{equation}
+where
+$$a_s = f^{s-1}(a_1).$$
+\begin{thm}
+    \textit{The potentials $V_s(x;a_1)$ and $V_{s+1}(x;a_1)$ are shape invariant potentials
+    $\forall s=1,2...$}
+\end{thm}
+\textbf{Proof} The base case $s=1$ follows from definition \ref{def:SIP}.\\
+For $s>1$, let $b=a_s$: the potential $V_{s+1}(x;a_1)$ can be expressed as
+$$V_{s+1}(x;a_1)=V_1(x;f(b))+\sum_{k=1}^{s-1}R(a_k)-R(b),$$
+using equation (\ref{eq:SIP}) with $a_1:=b$ yields
+$$V_{s+1}(x;a_1) = V_2(x;b)+\sum_{k=1}^{s-1}R(a_k).$$
+Since
+$$V_s(x;a_1) = V_1(x;b)+\sum_{k=1}^{s-1}R(a_k),$$
+$V_s(x;a_1)$ and $V_{s+1}(x;a_1)$ are respectively equal to $V_1(x;a_1)$ and $V_2(x;a_1)$, save
+a constant offset, so they are in turn supersymmetric partners and shape invariant
+potentials.\qed\\
+
+ Adding the kinetic operator provides a family of Hamiltonians
+$$\hat H_s(a_1) = -\dv[2]{}{x} + V_1(x;a_s) + \sum_{k=1}^{s-1}R(a_k),$$
+in which $\hat H_s$ and $\hat H_{s+1}$ are supersymmetric partners.\\
+They can also be expressed in terms of $\hat H_1$ and $\hat H_2$:
+\begin{gather*}
+\hat H_s(a_1) = \hat H_1(a_s)+\sum_{k=1}^{s-1}R(a_k)\\
+\hat H_{s+1}(a_1) = \hat H_2(a_s)+\sum_{k=1}^{s-1}R(a_k).
+\end{gather*}
+Ignoring normalizations, this implies that the operators
+\begin{gather*}
+\hat A_s := \hat A(a_s)\\
+\hat A_s^\dagger :=\hat A^\dagger(a_s)
+\end{gather*}
+relate their eigenfunctions just like $\hat A(a_1), \hat A^\dagger(a_1)$ relate those of
+$\hat H_1(a_1), \hat H_2(a_1)$.\\
+
+If $\hat H_1$ admits $p$ bound states, then $\hat H_s$ admits $p-s$ bound states, so it is clear
+that this process can be iterated at most $s=p-1$ times.
+
+ Using this method, the energy eigenvalues for $V_1(x;a_1)$ can be recursively
+determined: the ground state energy, if Supersymmetry is unbroken, is
+$$E_0^{(1)}(a_1)=0,$$
+the first excited state's is
+$$E_1^{(1)}(a_1) = E_0^{(2)}(a_1) = E_0^{(1)}(a_2)+R(a_1)=R(a_1),$$
+where the first equality follows from Supersymmetry and the second from the shape invariance;
+the second excited state's is
+\begin{gather*}
+E_2^{(1)}(a_1)=E_1^{(2)}(a_1)=E_0^{(3)}(a_1)=E_0^{(2)}(a_2)+R(a_1)=\\
+= E_0^{(1)}(a_3)+R(a_1)+R(a_2)=R(a_1)+R(a_2).
+\end{gather*}
+Iterating this process shows that the $n$'th excited state (with $0<n\leq p$) has energy
+\begin{equation}
+E_n^{(1)}(a_1) = \sum_{k=1}^{n}R(a_k),
+\label{eq:SIP_spectrum}
+\end{equation}
+and, since $\hat H_s(a_1)$ is a family of supersymmetric partners, this is also the ground state
+energy for $\hat H_{n+1}(a_1)$:
+$$E_{0}^{(n+1)}(a_1) = E^{(1)}_n(a_1).$$
+
+This method also provides an algebraic expression for the energy eigenfunctions of $V_1(x;a_1)$:
+since Supersymmetry is unbroken, the ground state wavefunction is
+$$\psi^{(1)}_0(x;a_1)=N\exp\left[-\int_{x_0}^{x}\dd yW(y;a_1)\right].$$
+Using, respectively, Supersymmetry and shape invariance and ignoring
+normalization, the first excited state's wavefunction
+is
+$$\psi^{(1)}_1(x;a_1) =\hat A^\dagger_1\psi^{(2)}_0(x;a_1)=
+\hat A^\dagger_1\psi^{(1)}_0(x;a_2)$$
+and the second excited state's is
+$$\psi_2^{(1)}(x;a_1)=\hat A^\dagger_1\psi_1^{(2)}(x;a_1)
+= \hat A^\dagger_1 \hat A^\dagger_2\psi_0^{(3)}(x;a_1).$$
+Using the shape invariance conditions
+$$\psi_0^{(3)}(x;a_1)=\psi_0^{(2)}(x;a_2)=\psi_0^{(1)}(x;a_3)$$
+yields
+$$\psi^{(1)}_2(x;a_1)= \hat A^\dagger_1\hat A^\dagger_2\psi_0^{(1)}(x;a_3).$$
+Iterating this line of reasoning, the $n$'th excited state's wavefunction is
+\begin{equation}
+\psi^{(1)}_n(x;a_1)=\hat A^\dagger_1...\hat A^\dagger_{n}\psi^{(1)}_0(x;a_{n+1}),
+\label{eq:SIP_wave}
+\end{equation}
+or
+\begin{equation}
+    \psi^{(1)}_n(x;a_1)=\hat A_1^\dagger\psi^{(1)}_{n-1}(x;a_2),
+    \label{eq:SIP_wave_rec}
+\end{equation}
+which effectively is a generalization of the ladder operators for the quantum harmonic
+oscillator, since the function $f$ that relates the parameters is known.
+\section{Example: Reflectionless potentials}
+As stated at the end of \ref{sec:refl1}, the family of reflectionless potentials
+associated with the partner potentials
+\begin{equation}
+    \begin{dcases}
+	V_1(x;B)= B^2-B(B+1)\cosh^{-2}(x)\\
+	V_2(x;B)= B^2-B(B-1)\cosh^{-2}(x)
+	\label{eq:v12refl}
+    \end{dcases}\text{, with }
+    W(x;B)=B\tanh(x)
+\end{equation}
+is also a family of shape invariant potentials: in this section the same results
+will be found using this property, in addition to the full energy spectra of the
+Hamiltonians.\\
+
+Consider the potentials (\ref{eq:v12refl}): it is easy to show that
+$$V_2(x;B)=V_1(x;B-1)+B^2-(B-1)^2,$$
+so $V_1$ and $V_2$ are shape invariant potentials with
+\begin{align*}
+&a_1:=B,\\
+&a_2=f(a_1=B):=B-1,\\
+&R(a_1=B):=B^2-(B-1)^2 = a_1^2-a_2^2.
+\end{align*}
+Since $f$ is a simple translation, $a_n$ is readily computed to be
+$$a_n = f^{n-1}(a_1=B)=B-n+1,$$
+and so is $R(a_k)$:
+$$R(a_k) = a_k^2-a_{k+1}^2.$$
+With these quantities, it is easy to apply the properties found in the previous section:
+Supersymmetry is unbroken, since the ground state wavefunction (\ref{eq:ground_state})
+$$\psi^{(1)}_0(x;B) = N\exp\left[-B\ln\left(\cosh(x)\right)\right]=N\cosh^{-B}(x)$$
+is normalizable, so the ground state energy must be $E_0^{(1)}(B)=0$.
+
+ The other energy eigenvalues are immediately determined from equation
+(\ref{eq:SIP_spectrum}):
+$$E_n^{(1)}(B) = \sum_{k=1}^{n}R(a_k) = a_1^2-a_2^2+a^2_2-...-a_{n+1}^2 =
+a_1^2-a_{n+1}^2=B^2-(B-n)^2.$$
+These eigenvalues could not be determined as easily without the shape invariance condition.\\
+
+To determine the eigenfunctions, consider first the operator $\hat A^\dagger_s$
+earlier defined
+\begin{gather*}
+\hat A_s^\dagger = \hat A^\dagger(a_s) = - \dv[]{}{x} + W(x;a_s) = -\dv[]{}{x}+(B-s+1)\tanh(x).
+\end{gather*}
+The ground state eigenfunction was already determined to be
+$$\psi_0^{(1)}(x;B) = N\cosh^{-B}(x),$$
+so, using equation (\ref{eq:SIP_wave_rec}), the first excited state's wavefunction is
+$$\psi_1^{(1)}(x;B)=\left[-\dv[]{}{x}+B\tanh(x)\right]\cosh^{1-B}(x)=
+N\tanh(x)\cosh^{1-B}(x),$$
+the second's is
+$$\psi_2^{(1)}(x;B)=\left[-\dv[]{}{x}+B\tanh(x)\right]\tanh(x)\cosh^{2-B}(x)$$
+and so on.
+\section{Example: Radial Oscillator potential}
+Consider the radial superpotential (\ref{eq:osc_superpot})
+$$W(r;l;\omega)=\frac{\omega r}{2}-\frac{l+1}{r}$$
+and its associated partner potentials
+\begin{equation*}
+\begin{dcases}
+V_1(r;l;\omega)=\frac{\omega^2r^2}{4}+\frac{l(l+1)}{r^2}-\left(l+\frac{3}{2}\right)\omega\\
+V_2(r;l;\omega)=\frac{\omega^2r^2}{4}+\frac{(l+1)(l+2)}{r^2}-\left(l+\frac{1}{2}\right)\omega
+\end{dcases}:
+\end{equation*}
+it is easy to show that they are also shape invariant potentials, as
+$$V_2(r;l;\omega) = V_1(r;l+1;\omega)+2\omega,$$
+in this case
+\begin{align*}
+&a_1:=l,\\
+&a_2=f(a_1=l):=l+1.
+\end{align*}
+As in the first example, the function $f$ is just a translation, so
+\begin{align*}
+&a_k=f^{k-1}(a_1)=l+k-1,\\
+&R(a_k):=2\omega\quad\forall k=1,2...
+\end{align*}
+As always, its ground state radial wavefunction can be determined from (\ref{eq:ground_state}):
+\begin{gather*}
+    R_{0}^{(1)}(r;l;\omega)=N\exp\left[-\int_{r_0>0}^{r}\dd\rho\frac{\omega\rho}{2}-
+    \frac{l+1}{\rho}\right]= N r^{l+1}\exp\left[-\frac{\omega}{4}r^2\right],
+\end{gather*}
+so the $E^{(1)}_0(l;\omega)=0$ eigenfunctions are
+$$\psi^{(1)}_{0lm}(r,\vartheta,\varphi)=\mathcal{N}r^{l}\exp\left[-\frac{\omega}{4}r^2\right]
+Y_{lm}(\vartheta,\varphi).$$
+Since this wavefunction is normalizable, Supersymmetry is unbroken, so $E_0^{(1)}(l;\omega)=0$
+and, using (\ref{eq:SIP_spectrum}), the other energy eigenvalues are immediately determined to be
+$$E_n^{(1)}(l;\omega)=\sum_{k=1}^{n}2\omega=2n\omega.$$
+The excited states' wavefunctions can be determined using equation (\ref{eq:SIP_wave_rec})
+recursively:
+\begin{gather*}
+R^{(1)}_{1}(r;l;\omega)=\hat A^\dagger(l;\omega)R^{(1)}_{0}(r;l+1;\omega)=N\left(
+-\dv[]{}{r}+\frac{\omega}{2}r-\frac{l+1}{r}\right)r^{l+2}\exp\left[-\frac{\omega}{4}r^2\right],
+\end{gather*}
+which yields
+$$R_1^{(1)}(r;l;\omega)=N\left(\omega r^2-2l-3\right)r^{l+1}\exp\left[-\frac{\omega}{4}r^2
+\right],$$
+so the $E^{(1)}_1(l;\omega)$ eigenfunctions are
+$$\psi_{1lm}(r,\vartheta,\varphi) = \mathcal{N}(\omega r^2-2l-3)r^{l}\exp
+\left[-\frac{\omega}{4}r^2\right]Y_{lm}(\vartheta,\varphi).$$
+%\textbf{NOTE TO SELF} ci sono delle cose che non mi quadrano: non appaiono costrizioni su $l$,
+%quindi c'è degenerazione nello stato fondamentale (che è impossibile!). 
+%\href{https://en.wikipedia.org/wiki/Quantum_harmonic_oscillator#Example:_3D_isotropic_harmonic_oscillator}{Pagina di Wikipedia}: sarebbe bello far vedere che emergono anche da qui, se no
+%questo metodo non è una vera alternativa a una soluzione analitica (polinomi di Laguerre
+%generalizzati).\\
+
+The purpose of this example is to show that a supersymmetric approach to a familiar problem
+can result in an elegant and brief algebraic solution.
+\COMMENT{
+TODOLIST
+- esempi reflectionless OK
+- parte 3D e potenziale oscillante OK
+- SIP OK
+- SWKB
+}
+\newpage

@@ -1,0 +1,247 @@
+\documentclass[a4paper,11pt,titlepage]{book}
+%\usepackage[utf8]{inputenc}
+\usepackage[english]{babel} %if you want the english version
+\usepackage{csquotes}
+\usepackage[export]{adjustbox}
+\usepackage{booktabs}
+\usepackage{subfigure}
+\usepackage{geometry}
+\geometry{a4paper,top=3cm,bottom=3cm,left=3.5cm,right=3.5cm,heightrounded,bindingoffset=3mm}
+\usepackage{multicol}
+\usepackage{graphicx,xcolor}
+\usepackage{fancyhdr}
+\renewcommand{\headrulewidth}{0pt}
+\usepackage{lipsum}
+\usepackage{physics}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{leftindex}
+\usepackage{anyfontsize}
+\usepackage{multirow}
+\usepackage{xfrac}
+\usepackage{gensymb}
+\usepackage{parskip} %to remove paragraph initial indentation
+\usepackage[font=small,labelfont=bf]{caption}
+
+%\pagestyle{fancy}
+
+\usepackage[raggedright]{titlesec}
+\titleformat*{\subsection}{\large\bfseries}
+\titleclass{\chapter}{straight}
+%\usepackage{mathptmx}   % Times + simboli matematici
+%\usepackage{newtxtext,newtxmath} %this triggers times new roman
+%\usepackage{fontspec}
+
+%\setlength{\columnsep}{4cm} %adjust base on your name length
+
+\theoremstyle{plain}
+\newtheorem{thm}{Theorem}[chapter] % reset theorem numbering for each chapter
+
+\theoremstyle{definition}
+\newtheorem{defn}[thm]{Definition} % definition numbers are dependent on theorem numbers
+\newtheorem{ex}[thm]{Example} % same for example numbers
+
+\definecolor{bluep}{RGB}{13, 80, 160}%color of bachelor in physics
+\definecolor{redp}{RGB}{229, 7, 47}%unito color
+\definecolor{redf}{RGB}{128, 8, 0}%color of master in physics
+\definecolor{greenf}{RGB}{75, 118, 64}%color of master in complex systems
+\newcommand{\bfcolor}[2]{\textcolor{#1}{\textbf{#2}}}
+\newcommand{\fsize}[2]{\fontsize{#1}{#2}\selectfont}
+\newcommand{\COMMENT}[1]{} %comment block
+
+%\fancyfoot{}
+%\fancyfoot[C]{\thepage}
+
+%\setlength{\headheight}{21pt}
+
+\newenvironment{abstract}{}{}
+\usepackage{abstract}
+
+%\usepackage[citecolor=gray]{hyperref}
+\usepackage{hyperref}
+\usepackage{subcaption} %per fare subfigure
+\usepackage{float}
+\usepackage{array} %per le table
+\usepackage{tabularx}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=red,
+    %citecolor=redp,
+    citecolor=gray,
+    urlcolor=bluep,
+}
+
+\usepackage{datetime}
+\edef\today{\number\day\
+\ifcase\month\or
+%Gennaio\or Febbraio\or Marzo\or Aprile\or Maggio\or Giugno\or Luglio\or
+%Agosto\or Settembre\or Ottobre\or Novembre\or Dicembre\fi\ \number\year
+January\or February\or March\or April\or May\or June\or July\or
+August\or September\or October\or November\or December\fi\ \number\year
+}
+
+
+%\usepackage{textblock}
+\usepackage[absolute]{textpos}
+
+\renewcommand{\chaptermark}[1]{\markboth{\thechapter.\ #1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection.\ #1}}
+
+\fancypagestyle{body}{
+    \pagenumbering{arabic}
+    \fancyhead[LE,RO]{
+    }
+    \fancyhead[C]{}
+    \fancyhead[LE,RO]{\thepage}
+    \fancyhead[RE]{
+	\leftmark
+    }
+    \fancyhead[LO]{
+	%\small{\textbf{Università degli studi di Torino}}
+    }
+    \fancyfoot[C]{}
+    \renewcommand{\headrulewidth}{0.4pt}
+}
+\fancypagestyle{intro}{
+    \pagenumbering{roman}
+    \fancyhead[L]{
+	%TESTINTRO
+    }
+    \fancyhead[C]{}
+    \fancyhead[R]{}
+    \fancyfoot[C]{\small{\thepage}}
+    \renewcommand{\headrulewidth}{0.0pt}
+}
+
+\fancypagestyle{empty}{
+    \fancyhead[C]{
+	%TESTEMPTY
+    }
+    \fancyhead[R]{
+	%TESTEMPTY
+    }
+    \fancyhead[L]{
+	%TESTEMPTY
+    }
+    \fancyfoot[C]{
+	%TESTEMPTY
+    }
+    \renewcommand{\headrulewidth}{0.0pt}
+}
+
+\usepackage[backend=biber, style=nature, sorting=none, doi=true, url=true]{biblatex}
+%\setlength{\bibitemsep}{0.3cm}
+\addbibresource{citations.bib}
+%\addbibresource{main.bib}
+
+
+\begin{document}
+\pagestyle{empty}
+\begingroup
+
+
+%\begin{figure}
+%    \centering
+%    \includegraphics[width=4cm]{figures/LogoUniToConvertito.png}
+%\end{figure}
+\begin{textblock*}{4cm}(8.65cm,2.5cm)
+    \centerline{\includegraphics[width=4.67cm]{./LogoUniToConvertito.png}}
+\end{textblock*}
+ %textbf per copertina su TUTTO, segnato con %%%
+
+\begin{textblock*}{21cm}(0cm,10cm)
+	\fontsize{22}{22}\selectfont
+	\centerline{\textbf{Università degli Studi di Torino}}%%%
+\end{textblock*}
+\begin{textblock*}{21cm}(0cm,11cm)
+	\fontsize{18}{22}\selectfont
+	\centerline {\textit{Corso di Laurea in Fisica}}
+\end{textblock*}
+
+
+\begin{textblock*}{21cm}(0cm,13.4cm)
+	\centering
+    \fontsize{28}{24}\selectfont
+    \textbf{Metodi Supersimmetrici\\per la Meccanica Quantistica}
+\end{textblock*}
+\begin{textblock*}{21cm}(0cm,15.6cm)
+	\fontsize{19}{22}\selectfont
+	\centerline{Tesi di Laurea}%%%
+\end{textblock*}
+
+
+
+\fontsize{18}{17}\selectfont
+\begin{textblock*}{8cm}(3.04cm,18.6cm)
+	\noindent 
+	\textbf{Relatrice}
+\end{textblock*}
+%\fontsize{18}{17}\selectfont
+\begin{textblock*}{8cm}(3.04cm,19.2cm)
+	\noindent 
+	Frau Marialuisa%%%
+\end{textblock*}
+
+
+
+
+\begin{textblock*}{8cm}(12.33cm,22.95cm)
+	\noindent
+	\textbf{Candidato}
+\end{textblock*}
+\begin{textblock*}{8cm}(12.33cm,23.55cm)
+	\noindent	\textbf{Rocchietti March Paolo}%%%
+\end{textblock*}
+\begin{textblock*}{8cm}(12.33cm,24.14cm)
+	\noindent	Matricola 1093935
+\end{textblock*}
+
+
+\fontsize{16}{17}\selectfont
+\begin{textblock*}{21cm}(0cm,27.34cm)
+	\centerline{Anno Accademico 2025/2026}%%%
+\end{textblock*}
+
+\endgroup
+
+
+\null
+
+\newpage
+\phantom{easter egg :)}
+\newpage
+\pagestyle{intro}
+\begin{abstract}%sottintende newpage
+    \input{./chapters/abstract.tex}
+\end{abstract}%sottintende newpage
+\thispagestyle{empty}
+\phantom{vuota}
+\newpage
+\thispagestyle{empty}
+\tableofcontents
+\newpage
+\thispagestyle{empty}
+\phantom{vuota}
+\newpage
+\pagestyle{body}
+\thispagestyle{empty}
+\input{./chapters/introduction.tex}
+\newpage
+\input{./chapters/chapt1.tex}
+\input{./chapters/chapt2.tex}
+\input{./chapters/chapt3.tex}
+\input{./chapters/appendix.tex}
+\newpage
+\thispagestyle{empty}
+\printbibliography[heading=bibintoc, title={Bibliography}]
+
+
+%\printbibliography
+%\addcontentsline{toc}{chapter}{Bibliografia}
+
+%\input{chapters/Acknowledgements}
+
+
+\end{document}

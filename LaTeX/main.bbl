@@ -1,0 +1,81 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{cooper_supersymmetry_1995}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=0dcc1fd02918bc0ba2e56e4350ccc6c5}{%
+           family={Cooper},
+           familyi={C\bibinitperiod},
+           given={Fred},
+           giveni={F\bibinitperiod}}}%
+        {{hash=bf1efca9a46eeb2390de0ecae44f4be3}{%
+           family={Khare},
+           familyi={K\bibinitperiod},
+           given={Avinash},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9d68ab843194359a2b7b0f41bad766aa}{%
+           family={Sukhatme},
+           familyi={S\bibinitperiod},
+           given={Uday},
+           giveni={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{4788984ca51743308271790ffdcffd32}
+      \strng{fullhash}{0347946c3736e6b91c10ce275f188d69}
+      \strng{fullhashraw}{0347946c3736e6b91c10ce275f188d69}
+      \strng{bibnamehash}{0347946c3736e6b91c10ce275f188d69}
+      \strng{authorbibnamehash}{0347946c3736e6b91c10ce275f188d69}
+      \strng{authornamehash}{4788984ca51743308271790ffdcffd32}
+      \strng{authorfullhash}{0347946c3736e6b91c10ce275f188d69}
+      \strng{authorfullhashraw}{0347946c3736e6b91c10ce275f188d69}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In the past ten years, the ideas of supersymmetry have been profitably applied to many nonrelativistic quantum mechanical problems. In particular, there is now a much deeper understanding of why certain potentials are analytically solvable and an array of powerful new approximation methods for handling potentials which are not exactly solvable. In this report, we review the theoretical formulation of supersymmetric quantum mechanics and discuss many applications. Exactly solvable potentials can be understood in terms of a few basic ideas which include supersymmetric partner potentials, shape invariance and operator transformations. Familiar solvable potentials all have the property of shape invariance. We describe new exactly solvable shape invariant potentials which include the recently discovered self-similar potentials as a special case. The connection between inverse scattering, isospectral potentials and supersymmetric quantum mechanics is discussed and multi-soliton solutions of the KdV equation are constructed. Approximation methods are also discussed within the framework of supersymmetric quantum mechanics and in particular it is shown that a supersymmetry inspired WKB approximation is exact for a class of shape invariant potentials. Supersymmetry ideas give particularly nice results for the tunneling rate in a double well potential and for improving large \$N\$ expansions. We also discuss the problem of a charged Dirac particle in an external magnetic field and other potentials in terms of supersymmetric quantum mechanics. Finally, we discuss structures more general than supersymmetric quantum mechanics such as parasupersymmetric quantum mechanics in which there is a symmetry between a boson and a para-fermion of order \$p\$.}
+      \field{issn}{03701573}
+      \field{journaltitle}{Physics Reports}
+      \field{month}{1}
+      \field{note}{arXiv:hep-th/9405029}
+      \field{number}{5-6}
+      \field{title}{Supersymmetry and {Quantum} {Mechanics}}
+      \field{urlday}{19}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{volume}{251}
+      \field{year}{1995}
+      \field{urldateera}{ce}
+      \field{pages}{267\bibrangedash 385}
+      \range{pages}{119}
+      \verb{doi}
+      \verb 10.1016/0370-1573(94)00080-M
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/hep-th/9405029
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/hep-th/9405029
+      \endverb
+      \keyw{High Energy Physics - Theory}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
