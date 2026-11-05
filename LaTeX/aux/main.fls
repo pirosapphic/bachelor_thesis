@@ -1,4 +1,4 @@
-PWD /home/paolo/NextCloud/TESI/LaTeX
+PWD /home/paolo/fisica/bachelor_thesis/LaTeX
 INPUT /var/lib/texmf/web2c/luahbtex/lualatex.fmt
 INPUT ./main.tex
 OUTPUT aux/main.log
