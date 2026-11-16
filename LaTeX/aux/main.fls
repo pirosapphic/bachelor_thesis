@@ -103,6 +103,8 @@ INPUT /usr/share/texmf-dist/tex/latex/tools/multicol.sty
 INPUT /usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
 INPUT /usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx
+INPUT /usr/share/texmf-dist/tex/latex/epigraph/epigraph.sty
+INPUT /usr/share/texmf-dist/tex/latex/nextpage/nextpage.sty
 INPUT /usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /usr/share/texmf-dist/tex/latex/lipsum/lipsum.sty
 INPUT /usr/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
@@ -276,6 +278,8 @@ INPUT ./chapters/chapt3.tex
 INPUT ./chapters/appendix.tex
 INPUT /home/paolo/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmromancaps10-regular.luc
 INPUT /home/paolo/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmmono10-regular.luc
+INPUT ./chapters/ringraziamenti.tex
+INPUT /home/paolo/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmroman9-italic.luc
 INPUT ./aux/main.aux
 INPUT ./aux/main.out
 INPUT ./aux/main.run.xml

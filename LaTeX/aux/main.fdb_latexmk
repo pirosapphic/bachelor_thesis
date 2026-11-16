@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber aux/main"] 1792752004.34544 "aux/main.bcf" "aux/main.bbl" "aux/main" 1793833928.33697 0
-  "aux/main.bcf" 1793833927.77091 108654 5b4d26d1dd51d315c985f6a147bc4354 "lualatex"
+["biber aux/main"] 1794221756.37477 "aux/main.bcf" "aux/main.bbl" "aux/main" 1794236450.96158 0
+  "aux/main.bcf" 1794236450.599 108654 5b4d26d1dd51d315c985f6a147bc4354 "lualatex"
   "citations.bib" 1792751937.02241 6189 4d1ab78df7d1ad7d0f34f3700e5e4971 ""
   (generated)
   "aux/main.bbl"
   "aux/main.blg"
   (rewritten before read)
-["lualatex"] 1793833922.42969 "main.tex" "main.pdf" "main" 1793833928.33751 0
+["lualatex"] 1794236447.19289 "main.tex" "main.pdf" "main" 1794236450.96189 0
   "/etc/texmf/tex/generic/config/language.dat" 1788356983.60566 2850 b86a6c5c7bf423c3902454d7e037ed0f ""
   "/home/paolo/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmmono10-regular.luc" 1792409447.48198 81824 2fc419936fbca23a4af140905084b7a2 ""
   "/home/paolo/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bold.luc" 1785064381.88596 128397 dc8cded2bbafe8195c86cdaea92e40b2 ""
@@ -18,6 +18,7 @@
   "/home/paolo/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmroman17-regular.luc" 1785083999.71082 128908 ccf80dfcecb7977dbece1d07fe79e048 ""
   "/home/paolo/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmroman6-regular.luc" 1785083999.25682 128503 9f9337cc9a431405725ba453ef815ca4 ""
   "/home/paolo/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmroman8-regular.luc" 1785083998.93782 128133 ca99fbcb51839e722a9efbe9c8541add ""
+  "/home/paolo/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmroman9-italic.luc" 1791645772.81966 135825 ea35eace66775b5a90f7b7cc96fa96c6 ""
   "/home/paolo/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmroman9-regular.luc" 1785083999.09582 127947 41c3a1d8f04c341c66aa8cf8c3c0c7c1 ""
   "/home/paolo/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmromancaps10-regular.luc" 1792409447.34898 120234 21e260e79582491cd5ffba9f4f42c84f ""
   "/home/paolo/.texlive/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz" 1785080800.03351 142931 bb9b946fc0a8b20f684355a2d1b7d229 ""
@@ -154,6 +155,7 @@
   "/usr/share/texmf-dist/tex/latex/csquotes/csquotes.sty" 1775415801 62767 e79d6d7a989e7da62dcf3d0a65c1faee ""
   "/usr/share/texmf-dist/tex/latex/datetime/datetime-defaults.sty" 1775415801 4105 4c80eaed8cd4f9a80cc6244c0adeb81f ""
   "/usr/share/texmf-dist/tex/latex/datetime/datetime.sty" 1775415801 27587 b023ffe1328fa89e7f133201d87029de ""
+  "/usr/share/texmf-dist/tex/latex/epigraph/epigraph.sty" 1775415801 4602 e947be1727d6ac747322008f8359ee17 ""
   "/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1775415801 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1775415801 46885 8953c67ffba03252c6090aa19568b8ba ""
   "/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty" 1775415801 31715 19e60610b63819fe670dfa1cd84a4e94 ""
@@ -196,6 +198,7 @@
   "/usr/share/texmf-dist/tex/latex/mathtools/mathtools.sty" 1775415801 62711 3b0ed1d68b598a75677c10d16646d5e5 ""
   "/usr/share/texmf-dist/tex/latex/mathtools/mhsetup.sty" 1775415801 5582 a43dedf8e5ec418356f1e9dfe5d29fc3 ""
   "/usr/share/texmf-dist/tex/latex/multirow/multirow.sty" 1775415801 6696 886c9f3087d0b973ed2c19aa79cb3023 ""
+  "/usr/share/texmf-dist/tex/latex/nextpage/nextpage.sty" 1775415801 1745 04b0f50af5d59a9cf3c17f3f4452ed12 ""
   "/usr/share/texmf-dist/tex/latex/parskip/parskip.sty" 1775415801 4288 94714aa7f535440f33181fec52a31963 ""
   "/usr/share/texmf-dist/tex/latex/physics/physics.sty" 1775415801 29610 a9597219b282d9c78b02393dcd7d4322 ""
   "/usr/share/texmf-dist/tex/latex/refcount/refcount.sty" 1775415801 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
@@ -262,18 +265,19 @@
   "/var/lib/texmf/web2c/luahbtex/lualatex.fmt" 1792593917 5660320 6eb139e4aa32812856570795124dba69 ""
   "LogoUniToConvertito.png" 1735263496 145482 6b2ace8244b19690fc37e9c6e1373e54 ""
   "SUSY_levels.png" 1792532337 67118 d2bd002eecaba7490876006d106ff693 ""
-  "aux/main.aux" 1793833927.75291 8171 0a8d610577060047dff0216efe53c73b "lualatex"
-  "aux/main.bbl" 1792752005.79641 14205 9e1a75a021a04fd42289a4e06afd9154 "biber aux/main"
-  "aux/main.out" 1793833927.76391 764 f060095c7fdd7bf4ab4544eb54020533 "lualatex"
-  "aux/main.run.xml" 1793833927.77423 2440 cbc46da902197bbdbf40e00e291b7fff "lualatex"
-  "aux/main.toc" 1793833927.77423 1957 50f46d0a08b77c7a1658565ac4eabb7f "lualatex"
+  "aux/main.aux" 1794236450.585 8171 36f84e6cc86956989a671d996448ca9b "lualatex"
+  "aux/main.bbl" 1794221757.73474 14205 9e1a75a021a04fd42289a4e06afd9154 "biber aux/main"
+  "aux/main.out" 1794236450.595 764 f060095c7fdd7bf4ab4544eb54020533 "lualatex"
+  "aux/main.run.xml" 1794236450.60119 2440 cbc46da902197bbdbf40e00e291b7fff "lualatex"
+  "aux/main.toc" 1794236450.60119 1957 50f46d0a08b77c7a1658565ac4eabb7f "lualatex"
   "chapters/abstract.tex" 1792614511.35509 562 fddaeee5a80b591b2e0e152941290293 ""
   "chapters/appendix.tex" 1792512778.79584 1830 2891b5c7c6a91f83eb08d0f0d76442e3 ""
-  "chapters/chapt1.tex" 1792532543 23567 66866da00040f2f61745d4bf2415f2a3 ""
-  "chapters/chapt2.tex" 1792504030.52648 11736 eb1e428e8a70f5f4852fb39a0661f423 ""
+  "chapters/chapt1.tex" 1794221264.89374 23573 c8911fa5e5be8397cb4b9ce4dfe12b3d ""
+  "chapters/chapt2.tex" 1794061394.57635 11736 eb1e428e8a70f5f4852fb39a0661f423 ""
   "chapters/chapt3.tex" 1793833922.28191 6838 259361f3eff5012dbc267f07d21dca3c ""
-  "chapters/introduction.tex" 1792751993.79741 2469 c2b1151ae6f2e16c5d984a6249f5a95e ""
-  "main.tex" 1792922957.33157 5967 494eb3febd9070b6ae51b92ff151a57d ""
+  "chapters/introduction.tex" 1794220707.40974 2472 6e9f850c180afcee63bdad289dc6b4f7 ""
+  "chapters/ringraziamenti.tex" 1794061074.57536 4269 982033d2b2d9cc3fc63871391fb7c207 ""
+  "main.tex" 1794236442.053 5876 6d52002c26666e6e09217d084f66cb18 ""
   "reflectionless.png" 1790772343.94258 45370 f3f467c8100e8af68473ff88546b3dac ""
   (generated)
   "aux/main.aux"

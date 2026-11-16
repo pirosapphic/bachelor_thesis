@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.10.21)  5 NOV 2026 00:32
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.10.21)  15 NOV 2026 15:37
  restricted system commands enabled.
 **pres.tex
 (./pres.tex
@@ -897,377 +897,347 @@ Package luatex.def Info: logounito.png  used on input line 59.
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}<./logounito.png>]
 File: logounito.png Graphic file (type png)
 <use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 110.
+Package luatex.def Info: logounito.png  used on input line 94.
 (luatex.def)             Requested size: 19.91684pt x 24.9344pt.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 110.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 110.
- (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 110.
- (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 110.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 94.
 File: logounito.png Graphic file (type png)
 <use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 110.
+Package luatex.def Info: logounito.png  used on input line 94.
 (luatex.def)             Requested size: 19.91684pt x 24.9344pt.
  [2
 
 ]
 File: logounito.png Graphic file (type png)
 <use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 125.
+Package luatex.def Info: logounito.png  used on input line 142.
 (luatex.def)             Requested size: 19.91684pt x 24.9344pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 142.
+ (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 142.
+ (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 File: logounito.png Graphic file (type png)
 <use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 125.
+Package luatex.def Info: logounito.png  used on input line 142.
 (luatex.def)             Requested size: 19.91684pt x 24.9344pt.
  [3
 
 ]
 File: logounito.png Graphic file (type png)
 <use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 153.
+Package luatex.def Info: logounito.png  used on input line 169.
 (luatex.def)             Requested size: 19.91684pt x 24.9344pt.
 File: logounito.png Graphic file (type png)
 <use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 153.
+Package luatex.def Info: logounito.png  used on input line 169.
 (luatex.def)             Requested size: 19.91684pt x 24.9344pt.
  [4
 
 ]
 File: logounito.png Graphic file (type png)
 <use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 174.
+Package luatex.def Info: logounito.png  used on input line 190.
 (luatex.def)             Requested size: 19.91684pt x 24.9344pt.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <8> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 174.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 190.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <6> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 174.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 190.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <14.4> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 174.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 190.
 File: logounito.png Graphic file (type png)
 <use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 174.
+Package luatex.def Info: logounito.png  used on input line 190.
 (luatex.def)             Requested size: 19.91684pt x 24.9344pt.
  [5
 
 ]
 File: logounito.png Graphic file (type png)
 <use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 190.
+Package luatex.def Info: logounito.png  used on input line 213.
 (luatex.def)             Requested size: 19.91684pt x 24.9344pt.
 File: logounito.png Graphic file (type png)
 <use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 190.
+Package luatex.def Info: logounito.png  used on input line 213.
 (luatex.def)             Requested size: 19.91684pt x 24.9344pt.
  [6
 
 ]
 File: logounito.png Graphic file (type png)
 <use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 233.
+Package luatex.def Info: logounito.png  used on input line 232.
 (luatex.def)             Requested size: 19.91684pt x 24.9344pt.
 File: logounito.png Graphic file (type png)
 <use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 233.
+Package luatex.def Info: logounito.png  used on input line 232.
 (luatex.def)             Requested size: 19.91684pt x 24.9344pt.
  [7
 
 ]
 File: logounito.png Graphic file (type png)
 <use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 251.
+Package luatex.def Info: logounito.png  used on input line 276.
 (luatex.def)             Requested size: 19.91684pt x 24.9344pt.
-File: logounito.png Graphic file (type png)
-<use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 251.
-(luatex.def)             Requested size: 19.91684pt x 24.9344pt.
- [8
 
-]
-File: logounito.png Graphic file (type png)
-<use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 265.
-(luatex.def)             Requested size: 19.91684pt x 24.9344pt.
-File: logounito.png Graphic file (type png)
-<use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 265.
-(luatex.def)             Requested size: 19.91684pt x 24.9344pt.
- [9
-
-]
-File: logounito.png Graphic file (type png)
-<use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 288.
-(luatex.def)             Requested size: 19.91684pt x 24.9344pt.
-LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <10.95> not available
-(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 288.
-
-Overfull \vbox (1.34735pt too high) detected at line 288
+Overfull \vbox (9.90692pt too high) detected at line 276
  []
 
 File: logounito.png Graphic file (type png)
 <use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 288.
+Package luatex.def Info: logounito.png  used on input line 276.
+(luatex.def)             Requested size: 19.91684pt x 24.9344pt.
+[8
+
+]
+File: logounito.png Graphic file (type png)
+<use logounito.png>
+Package luatex.def Info: logounito.png  used on input line 296.
+(luatex.def)             Requested size: 19.91684pt x 24.9344pt.
+
+Overfull \vbox (1.28809pt too high) detected at line 296
+ []
+
+File: logounito.png Graphic file (type png)
+<use logounito.png>
+Package luatex.def Info: logounito.png  used on input line 296.
+(luatex.def)             Requested size: 19.91684pt x 24.9344pt.
+[9
+
+]
+File: logounito.png Graphic file (type png)
+<use logounito.png>
+Package luatex.def Info: logounito.png  used on input line 321.
+(luatex.def)             Requested size: 19.91684pt x 24.9344pt.
+LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <10.95> not available
+(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 321.
+<./broken_SUSY.png, id=100, 164.0529pt x 196.5744pt>
+File: ./broken_SUSY.png Graphic file (type png)
+<use ./broken_SUSY.png>
+Package luatex.def Info: ./broken_SUSY.png  used on input line 321.
+(luatex.def)             Requested size: 139.4179pt x 167.05902pt.
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <9> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 321.
+
+Overfull \vbox (21.54077pt too high) detected at line 321
+ []
+
+File: logounito.png Graphic file (type png)
+<use logounito.png>
+Package luatex.def Info: logounito.png  used on input line 321.
 (luatex.def)             Requested size: 19.91684pt x 24.9344pt.
 [10
 
-]
+<./broken_SUSY.png>]
 File: logounito.png Graphic file (type png)
 <use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 323.
+Package luatex.def Info: logounito.png  used on input line 347.
 (luatex.def)             Requested size: 19.91684pt x 24.9344pt.
+<./unbroken_SUSY.png, id=110, 164.0529pt x 196.5744pt>
+File: ./unbroken_SUSY.png Graphic file (type png)
+<use ./unbroken_SUSY.png>
+Package luatex.def Info: ./unbroken_SUSY.png  used on input line 347.
+(luatex.def)             Requested size: 139.4179pt x 167.05902pt.
 
-Overfull \vbox (3.29695pt too high) detected at line 323
+Overfull \vbox (21.54077pt too high) detected at line 347
  []
 
 File: logounito.png Graphic file (type png)
 <use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 323.
+Package luatex.def Info: logounito.png  used on input line 347.
 (luatex.def)             Requested size: 19.91684pt x 24.9344pt.
 [11
 
+<./unbroken_SUSY.png>]
+File: logounito.png Graphic file (type png)
+<use logounito.png>
+Package luatex.def Info: logounito.png  used on input line 425.
+(luatex.def)             Requested size: 19.91684pt x 24.9344pt.
+File: logounito.png Graphic file (type png)
+<use logounito.png>
+Package luatex.def Info: logounito.png  used on input line 425.
+(luatex.def)             Requested size: 19.91684pt x 24.9344pt.
+ [12
+
 ]
 File: logounito.png Graphic file (type png)
 <use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 333.
+Package luatex.def Info: logounito.png  used on input line 491.
 (luatex.def)             Requested size: 19.91684pt x 24.9344pt.
-<./SUSY_levels.png, id=112, 355.5684pt x 197.2971pt>
-File: ./SUSY_levels.png Graphic file (type png)
-<use ./SUSY_levels.png>
-Package luatex.def Info: ./SUSY_levels.png  used on input line 333.
-(luatex.def)             Requested size: 298.75394pt x 165.77359pt.
-LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <9> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 333.
 
-Overfull \vbox (18.25534pt too high) detected at line 333
+Overfull \vbox (10.81602pt too high) detected at line 491
  []
 
 File: logounito.png Graphic file (type png)
 <use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 333.
-(luatex.def)             Requested size: 19.91684pt x 24.9344pt.
-[12
-
-<./SUSY_levels.png>]
-File: logounito.png Graphic file (type png)
-<use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 352.
-(luatex.def)             Requested size: 19.91684pt x 24.9344pt.
-
-Overfull \vbox (6.61424pt too high) detected at line 352
- []
-
-File: logounito.png Graphic file (type png)
-<use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 352.
+Package luatex.def Info: logounito.png  used on input line 491.
 (luatex.def)             Requested size: 19.91684pt x 24.9344pt.
 [13
 
 ]
 File: logounito.png Graphic file (type png)
 <use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 365.
+Package luatex.def Info: logounito.png  used on input line 519.
 (luatex.def)             Requested size: 19.91684pt x 24.9344pt.
 File: logounito.png Graphic file (type png)
 <use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 365.
+Package luatex.def Info: logounito.png  used on input line 519.
 (luatex.def)             Requested size: 19.91684pt x 24.9344pt.
  [14
 
 ]
 File: logounito.png Graphic file (type png)
 <use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 393.
+Package luatex.def Info: logounito.png  used on input line 554.
 (luatex.def)             Requested size: 19.91684pt x 24.9344pt.
 
-Overfull \vbox (12.32251pt too high) detected at line 393
+Overfull \vbox (20.19395pt too high) detected at line 554
  []
 
 File: logounito.png Graphic file (type png)
 <use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 393.
+Package luatex.def Info: logounito.png  used on input line 554.
 (luatex.def)             Requested size: 19.91684pt x 24.9344pt.
 [15
 
 ]
 File: logounito.png Graphic file (type png)
 <use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 413.
+Package luatex.def Info: logounito.png  used on input line 563.
 (luatex.def)             Requested size: 19.91684pt x 24.9344pt.
-File: logounito.png Graphic file (type png)
-<use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 413.
-(luatex.def)             Requested size: 19.91684pt x 24.9344pt.
- [16
-
-]
-File: logounito.png Graphic file (type png)
-<use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 433.
-(luatex.def)             Requested size: 19.91684pt x 24.9344pt.
-File: logounito.png Graphic file (type png)
-<use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 433.
-(luatex.def)             Requested size: 19.91684pt x 24.9344pt.
- [17
-
-]
-File: logounito.png Graphic file (type png)
-<use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 451.
-(luatex.def)             Requested size: 19.91684pt x 24.9344pt.
-
-Overfull \vbox (2.69928pt too high) detected at line 451
- []
-
-File: logounito.png Graphic file (type png)
-<use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 451.
-(luatex.def)             Requested size: 19.91684pt x 24.9344pt.
-[18
-
-]
-File: logounito.png Graphic file (type png)
-<use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 459.
-(luatex.def)             Requested size: 19.91684pt x 24.9344pt.
-<./shape_inv.png, id=151, 224.037pt x 145.9854pt>
+<./shape_inv.png, id=138, 224.037pt x 145.9854pt>
 File: ./shape_inv.png Graphic file (type png)
 <use ./shape_inv.png>
-Package luatex.def Info: ./shape_inv.png  used on input line 459.
+Package luatex.def Info: ./shape_inv.png  used on input line 563.
 (luatex.def)             Requested size: 278.83578pt x 181.69719pt.
 
-Overfull \vbox (23.17894pt too high) detected at line 459
+Overfull \vbox (23.17894pt too high) detected at line 563
  []
 
 File: logounito.png Graphic file (type png)
 <use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 459.
+Package luatex.def Info: logounito.png  used on input line 563.
 (luatex.def)             Requested size: 19.91684pt x 24.9344pt.
-[19
+[16
 
 <./shape_inv.png>]
 File: logounito.png Graphic file (type png)
 <use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 476.
+Package luatex.def Info: logounito.png  used on input line 582.
 (luatex.def)             Requested size: 19.91684pt x 24.9344pt.
 
-Overfull \vbox (6.35605pt too high) detected at line 476
+Overfull \vbox (6.35605pt too high) detected at line 582
  []
 
 File: logounito.png Graphic file (type png)
 <use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 476.
+Package luatex.def Info: logounito.png  used on input line 582.
 (luatex.def)             Requested size: 19.91684pt x 24.9344pt.
-[20
+[17
 
 ]
 File: logounito.png Graphic file (type png)
 <use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 488.
+Package luatex.def Info: logounito.png  used on input line 595.
 (luatex.def)             Requested size: 19.91684pt x 24.9344pt.
 File: logounito.png Graphic file (type png)
 <use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 488.
+Package luatex.def Info: logounito.png  used on input line 595.
+(luatex.def)             Requested size: 19.91684pt x 24.9344pt.
+ [18
+
+]
+File: logounito.png Graphic file (type png)
+<use logounito.png>
+Package luatex.def Info: logounito.png  used on input line 622.
+(luatex.def)             Requested size: 19.91684pt x 24.9344pt.
+
+Overfull \hbox (7.95828pt too wide) detected at line 622
+[]
+ []
+
+File: logounito.png Graphic file (type png)
+<use logounito.png>
+Package luatex.def Info: logounito.png  used on input line 622.
+(luatex.def)             Requested size: 19.91684pt x 24.9344pt.
+[19
+
+]
+File: logounito.png Graphic file (type png)
+<use logounito.png>
+Package luatex.def Info: logounito.png  used on input line 651.
+(luatex.def)             Requested size: 19.91684pt x 24.9344pt.
+<./gen_well.png, id=165, 201.6333pt x 99.0099pt>
+File: ./gen_well.png Graphic file (type png)
+<use ./gen_well.png>
+Package luatex.def Info: ./gen_well.png  used on input line 651.
+(luatex.def)             Requested size: 159.33604pt x 78.24263pt.
+File: logounito.png Graphic file (type png)
+<use logounito.png>
+Package luatex.def Info: logounito.png  used on input line 651.
+(luatex.def)             Requested size: 19.91684pt x 24.9344pt.
+ [20
+
+<./gen_well.png>]
+File: logounito.png Graphic file (type png)
+<use logounito.png>
+Package luatex.def Info: logounito.png  used on input line 669.
+(luatex.def)             Requested size: 19.91684pt x 24.9344pt.
+File: logounito.png Graphic file (type png)
+<use logounito.png>
+Package luatex.def Info: logounito.png  used on input line 669.
 (luatex.def)             Requested size: 19.91684pt x 24.9344pt.
  [21
 
 ]
 File: logounito.png Graphic file (type png)
 <use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 515.
+Package luatex.def Info: logounito.png  used on input line 685.
 (luatex.def)             Requested size: 19.91684pt x 24.9344pt.
 
-Overfull \hbox (7.95828pt too wide) detected at line 515
-[]
+Overfull \vbox (1.15945pt too high) detected at line 685
  []
 
 File: logounito.png Graphic file (type png)
 <use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 515.
+Package luatex.def Info: logounito.png  used on input line 685.
 (luatex.def)             Requested size: 19.91684pt x 24.9344pt.
 [22
 
 ]
 File: logounito.png Graphic file (type png)
 <use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 544.
+Package luatex.def Info: logounito.png  used on input line 706.
 (luatex.def)             Requested size: 19.91684pt x 24.9344pt.
-<./gen_well.png, id=180, 201.6333pt x 99.0099pt>
-File: ./gen_well.png Graphic file (type png)
-<use ./gen_well.png>
-Package luatex.def Info: ./gen_well.png  used on input line 544.
-(luatex.def)             Requested size: 159.33604pt x 78.24263pt.
 File: logounito.png Graphic file (type png)
 <use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 544.
+Package luatex.def Info: logounito.png  used on input line 706.
 (luatex.def)             Requested size: 19.91684pt x 24.9344pt.
  [23
 
-<./gen_well.png>]
+]
 File: logounito.png Graphic file (type png)
 <use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 561.
+Package luatex.def Info: logounito.png  used on input line 727.
 (luatex.def)             Requested size: 19.91684pt x 24.9344pt.
 File: logounito.png Graphic file (type png)
 <use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 561.
+Package luatex.def Info: logounito.png  used on input line 727.
 (luatex.def)             Requested size: 19.91684pt x 24.9344pt.
  [24
 
 ]
 File: logounito.png Graphic file (type png)
 <use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 574.
-(luatex.def)             Requested size: 19.91684pt x 24.9344pt.
-
-Overfull \vbox (5.99426pt too high) detected at line 574
- []
-
-File: logounito.png Graphic file (type png)
-<use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 574.
-(luatex.def)             Requested size: 19.91684pt x 24.9344pt.
-[25
-
-]
-File: logounito.png Graphic file (type png)
-<use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 597.
+Package luatex.def Info: logounito.png  used on input line 747.
 (luatex.def)             Requested size: 19.91684pt x 24.9344pt.
 File: logounito.png Graphic file (type png)
 <use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 597.
-(luatex.def)             Requested size: 19.91684pt x 24.9344pt.
- [26
-
-]
-File: logounito.png Graphic file (type png)
-<use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 626.
-(luatex.def)             Requested size: 19.91684pt x 24.9344pt.
-File: logounito.png Graphic file (type png)
-<use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 626.
-(luatex.def)             Requested size: 19.91684pt x 24.9344pt.
- [27
-
-]
-File: logounito.png Graphic file (type png)
-<use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 648.
-(luatex.def)             Requested size: 19.91684pt x 24.9344pt.
-File: logounito.png Graphic file (type png)
-<use logounito.png>
-Package luatex.def Info: logounito.png  used on input line 648.
+Package luatex.def Info: logounito.png  used on input line 747.
 (luatex.def)             Requested size: 56.9055pt x 71.2499pt.
- [28
+ [25
 
 ]
 \tf@nav=\write6
@@ -1289,19 +1259,19 @@ Package rerunfilecheck Info: File `pres.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 30081 strings out of 476076
+ 30047 strings out of 476076
  100000,1144653 words of node,token memory allocated
- 1869 words of node memory still in use:
-   22 hlist, 6 vlist, 5 rule, 4 disc, 2 local_par, 32 glue, 6 kern, 11 penalty, 27 glyph, 198 attribute, 64 glue_spec, 100 attribute_list, 8 write, 1 pdf_dest, 4 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore nodes
-   avail lists: 2:748,3:249,4:350,5:261,6:54,7:3204,8:65,9:613,10:20,11:410
- 51450 multiletter control sequences out of 65536+600000
- 75 fonts using 6537359 bytes
- 128i,14n,116p,446b,876s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/opentype/public/lm/lmroman9-italic.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmsans9-oblique.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmsans9-regular.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmsans10-boldoblique.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmromandemi10-regular.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmroman8-italic.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmsans12-oblique.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmsans10-oblique.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmsans8-regular.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmsans12-regular.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmsans10-regular.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on pres.pdf (28 pages, 506781 bytes).
+ 1692 words of node memory still in use:
+   22 hlist, 6 vlist, 5 rule, 4 disc, 2 local_par, 32 glue, 6 kern, 11 penalty, 27 glyph, 146 attribute, 64 glue_spec, 74 attribute_list, 4 write, 4 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore nodes
+   avail lists: 2:1051,3:247,4:278,5:361,6:39,7:3126,8:58,9:944,10:21,11:395
+ 51431 multiletter control sequences out of 65536+600000
+ 74 fonts using 6405351 bytes
+ 128i,19n,116p,446b,1017s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/opentype/public/lm/lmroman9-italic.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmsans9-oblique.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmsans9-regular.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmsans10-boldoblique.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmromandemi10-regular.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmroman8-italic.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmsans12-oblique.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmsans8-regular.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmsans10-oblique.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmsans12-regular.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmsans10-regular.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on pres.pdf (25 pages, 527300 bytes).
 
-PDF statistics: 350 PDF objects out of 1000 (max. 8388607)
- 244 compressed objects within 3 object streams
- 62 named destinations out of 1000 (max. 1048576)
+PDF statistics: 337 PDF objects out of 1000 (max. 8388607)
+ 232 compressed objects within 3 object streams
+ 56 named destinations out of 1000 (max. 1048576)
  56 words of extra memory for PDF output out of 10000 (max. 100000000)
 

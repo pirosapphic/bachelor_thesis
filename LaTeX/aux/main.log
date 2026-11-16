@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.10.21)  5 NOV 2026 00:12
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.10.21)  9 NOV 2026 16:00
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -318,22 +318,31 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (/usr/share/texmf-dist/tex/latex/epigraph/epigraph.sty
+Package: epigraph 2020/01/02 v1.5e typesetting epigraphs
+ (/usr/share/texmf-dist/tex/latex/nextpage/nextpage.sty
+Package: nextpage 2009/09/03 v1.1a additional page commands
+)
+\beforeepigraphskip=\skip59
+\afterepigraphskip=\skip60
+\epigraphwidth=\skip61
+\epigraphrule=\skip62
 ) (/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
-\f@nch@headwidth=\skip59
-\f@nch@offset@elh=\skip60
-\f@nch@offset@erh=\skip61
-\f@nch@offset@olh=\skip62
-\f@nch@offset@orh=\skip63
-\f@nch@offset@elf=\skip64
-\f@nch@offset@erf=\skip65
-\f@nch@offset@olf=\skip66
-\f@nch@offset@orf=\skip67
-\f@nch@height=\skip68
-\f@nch@footalignment=\skip69
-\f@nch@widthL=\skip70
-\f@nch@widthC=\skip71
-\f@nch@widthR=\skip72
+\f@nch@headwidth=\skip63
+\f@nch@offset@elh=\skip64
+\f@nch@offset@erh=\skip65
+\f@nch@offset@olh=\skip66
+\f@nch@offset@orh=\skip67
+\f@nch@offset@elf=\skip68
+\f@nch@offset@erf=\skip69
+\f@nch@offset@olf=\skip70
+\f@nch@offset@orf=\skip71
+\f@nch@height=\skip72
+\f@nch@footalignment=\skip73
+\f@nch@widthL=\skip74
+\f@nch@widthC=\skip75
+\f@nch@widthR=\skip76
 \@temptokenb=\toks23
 ) (/usr/share/texmf-dist/tex/latex/lipsum/lipsum.sty (/usr/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty (/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2026-01-19 L3 programming layer (loader) 
@@ -353,7 +362,7 @@ Package: physics
 Package: xparse 2025-10-09 L3 Experimental document command parser
 ) (/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2025/07/09 v2.17z AMS math features
-\@mathmargin=\skip73
+\@mathmargin=\skip77
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -410,8 +419,8 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \totwidth@=\dimen260
 \lineht@=\dimen261
 \@envbody=\toks27
-\multlinegap=\skip74
-\multlinetaggap=\skip75
+\multlinegap=\skip78
+\multlinetaggap=\skip79
 \mathdisplay@stack=\toks28
 LaTeX Info: Redefining \[ on input line 2950.
 LaTeX Info: Redefining \] on input line 2951.
@@ -431,9 +440,9 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@headfont=\toks31
 \thm@notefont=\toks32
 \thm@headpunct=\toks33
-\thm@preskip=\skip76
-\thm@postskip=\skip77
-\thm@headsep=\skip78
+\thm@preskip=\skip80
+\thm@postskip=\skip81
+\thm@headsep=\skip82
 \dth@everypar=\toks34
 ) (/usr/share/texmf-dist/tex/latex/leftindex/leftindex.sty (/usr/share/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2024/10/04 v1.31 mathematical typesetting tools
@@ -443,18 +452,18 @@ Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
 \calc@Bcount=\count332
 \calc@Adimen=\dimen262
 \calc@Bdimen=\dimen263
-\calc@Askip=\skip79
-\calc@Bskip=\skip80
+\calc@Askip=\skip83
+\calc@Bskip=\skip84
 LaTeX Info: Redefining \setlength on input line 86.
 LaTeX Info: Redefining \addtolength on input line 87.
 \calc@Ccount=\count333
-\calc@Cskip=\skip81
+\calc@Cskip=\skip85
 ) (/usr/share/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
 \g_MT_multlinerow_int=\count334
 \l_MT_multwidth_dim=\dimen264
-\origjot=\skip82
+\origjot=\skip86
 \l_MT_shortvdotswithinadjustabove_dim=\dimen265
 \l_MT_shortvdotswithinadjustbelow_dim=\dimen266
 \l_MT_above_intertext_sep=\dimen267
@@ -479,9 +488,9 @@ Package: leftindex 2024/01/31 v0.2beta
 Package: anyfontsize 2007/11/22 anyfontsize.sty by pts
 ) (/usr/share/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
-\multirow@colwidth=\skip83
+\multirow@colwidth=\skip87
 \multirow@cntb=\count335
-\multirow@dima=\skip84
+\multirow@dima=\skip88
 \bigstrutjot=\dimen278
 ) (/usr/share/texmf-dist/tex/latex/xfrac/xfrac.sty
 Package: xfrac 2024-06-04 Split-level fractions
@@ -537,8 +546,8 @@ Package caption Info: subfigure package is loaded.
 ) (/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \ttl@box=\box110
-\beforetitleunit=\skip85
-\aftertitleunit=\skip86
+\beforetitleunit=\skip89
+\aftertitleunit=\skip90
 \ttl@plus=\dimen292
 \ttl@minus=\dimen293
 \ttl@toksa=\toks35
@@ -549,11 +558,11 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \c@thm=\count338
  (/usr/share/texmf-dist/tex/latex/abstract/abstract.sty
 Package: abstract 2009/06/08 v1.2a configurable abstracts
-\abstitleskip=\skip87
-\absleftindent=\skip88
-\absrightindent=\skip89
-\absparindent=\skip90
-\absparsep=\skip91
+\abstitleskip=\skip91
+\absleftindent=\skip92
+\absrightindent=\skip93
+\absparindent=\skip94
+\absparsep=\skip95
 ) (/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
  (/usr/share/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
@@ -640,7 +649,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
 )
-\Hy@SectionHShift=\skip92
+\Hy@SectionHShift=\skip96
 ) (/usr/share/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 LaTeX Info: Redefining \subref on input line 189.
@@ -661,8 +670,8 @@ Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \ar@mcellbox=\box113
 \extrarowheight=\dimen302
 \NC@list=\toks39
-\extratabsurround=\skip93
-\backup@length=\skip94
+\extratabsurround=\skip97
+\backup@length=\skip98
 \ar@cellbox=\box114
 ) (/usr/share/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
@@ -674,7 +683,7 @@ Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 \TX@cols=\count351
 \TX@ftn=\toks40
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 74.
+Package hyperref Info: Option `colorlinks' set `true' on input line 75.
  (/usr/share/texmf-dist/tex/latex/datetime/datetime.sty
 Package: datetime 2015/03/20 v2.60 Date Time Package
  (/usr/share/texmf-dist/tex/latex/fmtcount/fmtcount.sty
@@ -788,14 +797,14 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \blx@sectionciteorderinternal@0=\count418
 \blx@entrysetcounter=\count419
 \blx@biblioinstance=\count420
-\labelnumberwidth=\skip95
-\labelalphawidth=\skip96
-\biblabelsep=\skip97
-\bibitemsep=\skip98
-\bibnamesep=\skip99
-\bibinitsep=\skip100
-\bibparsep=\skip101
-\bibhang=\skip102
+\labelnumberwidth=\skip99
+\labelalphawidth=\skip100
+\biblabelsep=\skip101
+\bibitemsep=\skip102
+\bibnamesep=\skip103
+\bibinitsep=\skip104
+\bibparsep=\skip105
+\bibhang=\skip106
 \blx@bcfin=\read3
 \blx@bcfout=\write3
 \blx@langwohyphens=\language6
@@ -879,20 +888,20 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@savedoriglanguage=\count489
 \c@pageref=\count490
 \c@savedpageref=\count491
-\shorthandwidth=\skip103
-\shortjournalwidth=\skip104
-\shortserieswidth=\skip105
-\shorttitlewidth=\skip106
-\shortauthorwidth=\skip107
-\shorteditorwidth=\skip108
-\locallabelnumberwidth=\skip109
-\locallabelalphawidth=\skip110
-\localshorthandwidth=\skip111
-\localshortjournalwidth=\skip112
-\localshortserieswidth=\skip113
-\localshorttitlewidth=\skip114
-\localshortauthorwidth=\skip115
-\localshorteditorwidth=\skip116
+\shorthandwidth=\skip107
+\shortjournalwidth=\skip108
+\shortserieswidth=\skip109
+\shorttitlewidth=\skip110
+\shortauthorwidth=\skip111
+\shorteditorwidth=\skip112
+\locallabelnumberwidth=\skip113
+\locallabelalphawidth=\skip114
+\localshorthandwidth=\skip115
+\localshortjournalwidth=\skip116
+\localshortserieswidth=\skip117
+\localshorttitlewidth=\skip118
+\localshortauthorwidth=\skip119
+\localshorteditorwidth=\skip120
 Package biblatex Info: Trying to load enhanced support for Unicode engines...
 Package biblatex Info: ... file 'blx-unicode.def' found.
  (/usr/share/texmf-dist/tex/latex/biblatex/blx-unicode.def)
@@ -984,26 +993,26 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
  (./aux/main.aux)
 \openout1 = main.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
  (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count507
@@ -1030,15 +1039,14 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* bindingoffset: 8.53581pt
 * modes: twoside heightrounded 
-* h-part:(L,W,R)=(99.58464pt, 389.80278pt, 99.58464pt)
+* h-part:(L,W,R)=(108.12054pt, 389.80269pt, 99.58464pt)
 * v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=389.80278pt
+* \textwidth=389.80269pt
 * \textheight=677.4003pt
-* \oddsidemargin=35.85046pt
+* \oddsidemargin=35.85056pt
 * \evensidemargin=27.31465pt
 * \topmargin=-18.78552pt
 * \headheight=12.0pt
@@ -1058,13 +1066,13 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \celsius on input line 140.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 140.
+LaTeX Info: Redefining \celsius on input line 138.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 138.
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 140.
-Package gensymb Info: Using \Omega for \ohm on input line 140.
+LaTeX Info: Redefining \ohm on input line 138.
+Package gensymb Info: Using \Omega for \ohm on input line 138.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -1072,7 +1080,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 140.
+Package hyperref Info: Link coloring ON on input line 138.
 (./aux/main.out) (./aux/main.out)
 \@outlinefile=\write4
 
@@ -1091,12 +1099,12 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./aux/main.bbl)
-Package biblatex Info: Reference section=0 on input line 140.
-Package biblatex Info: Reference segment=0 on input line 140.
+Package biblatex Info: Reference section=0 on input line 138.
+Package biblatex Info: Reference segment=0 on input line 138.
 <./LogoUniToConvertito.png, id=28, 1602.98875pt x 2007.5pt>
 File: ./LogoUniToConvertito.png Graphic file (type png)
 <use ./LogoUniToConvertito.png>
-Package luatex.def Info: ./LogoUniToConvertito.png  used on input line 150.
+Package luatex.def Info: ./LogoUniToConvertito.png  used on input line 148.
 (luatex.def)             Requested size: 132.87431pt x 166.39272pt.
 
 
@@ -1108,15 +1116,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-<./LogoUniToConvertito.png>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[2] (./chapters/abstract.tex)
+<./LogoUniToConvertito.png>] (./chapters/abstract.tex)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1126,15 +1126,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [1
 
-]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[2] (./aux/main.toc
+] (./aux/main.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1154,15 +1146,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[3]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[4] (./chapters/introduction.tex)
+[2] (./chapters/introduction.tex)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1181,8 +1165,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.2'
 [2]
 Underfull \hbox (badness 10000) in paragraph at lines 132--134
 
@@ -1220,11 +1202,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 275--280
 
  []
 
-<./SUSY_levels.png, id=160, 355.5684pt x 197.2971pt>
+<./SUSY_levels.png, id=148, 355.5684pt x 197.2971pt>
 File: ./SUSY_levels.png Graphic file (type png)
 <use ./SUSY_levels.png>
 Package luatex.def Info: ./SUSY_levels.png  used on input line 283.
-(luatex.def)             Requested size: 389.80278pt x 216.29591pt.
+(luatex.def)             Requested size: 389.80269pt x 216.29591pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1250,7 +1232,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 328--330
  []
 
 
-Overfull \hbox (7.70778pt too wide) detected at line 335
+Overfull \hbox (7.70787pt too wide) detected at line 335
 \OML/cmm/m/it/10.95  []\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x\OT1/cmr/m/n/10.95 ) = [][]\OML/cmm/m/it/10.95  [] \OT1/cmr/m/n/10.95 = [] [] \OML/cmm/m/it/10.95  []\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x\OT1/cmr/m/n/10.95 ) = \OMS/cmsy/m/n/10.95 ^^@\OT1/cmr/m/n/10.95 2[] [][] [] \OML/cmm/m/it/10.95 ;
  []
 
@@ -1318,11 +1300,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 521--524
 
  []
 
-<./reflectionless.png, id=216, 289.08pt x 159.7167pt>
+<./reflectionless.png, id=205, 289.08pt x 159.7167pt>
 File: ./reflectionless.png Graphic file (type png)
 <use ./reflectionless.png>
 Package luatex.def Info: ./reflectionless.png  used on input line 542.
-(luatex.def)             Requested size: 389.80278pt x 215.37671pt.
+(luatex.def)             Requested size: 389.80269pt x 215.37671pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 550--553
 
@@ -1395,7 +1377,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [17]
-Overfull \hbox (4.15582pt too wide) in paragraph at lines 221--224
+Overfull \hbox (4.15591pt too wide) in paragraph at lines 221--224
 \TU/lmr/m/n/10.95 Since this wave-func-tion is nor-mal-iz-able, Su-per-sym-me-try is un-bro-ken, so $\OML/cmm/m/it/10.95 E[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 l\OT1/cmr/m/n/10.95 ; \OML/cmm/m/it/10.95 !\OT1/cmr/m/n/10.95 ) =
  []
 
@@ -1407,7 +1389,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [18]
-Overfull \hbox (4.52477pt too wide) detected at line 230
+Overfull \hbox (4.52486pt too wide) detected at line 230
 []
  []
 
@@ -1441,7 +1423,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--92
  []
 
 
-Overfull \hbox (23.74205pt too wide) detected at line 106
+Overfull \hbox (23.74214pt too wide) detected at line 106
 [][] \OT1/cmr/m/n/10.95 d\OML/cmm/m/it/10.95 y[] \OT1/cmr/m/n/10.95 = [][] d\OML/cmm/m/it/10.95 y[] \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/10.95 n\U/msb/m/n/10.95 ~\OML/cmm/m/it/10.95 :
  []
 
@@ -1469,7 +1451,32 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[24] (./aux/main.aux)
+[24] (./chapters/ringraziamenti.tex
+Underfull \hbox (badness 10000) in paragraph at lines 19--22
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 61--66
+
+ []
+
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[26] (./aux/main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -1482,19 +1489,19 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 27018 strings out of 476076
+ 27124 strings out of 476076
  125086,1648299 words of node,token memory allocated
- 1478 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 sub_mlist, 1 glyph, 273 attribute, 88 glue_spec, 137 attribute_list, 1 write, 1 pdf_action nodes
-   avail lists: 1:3,2:1012,3:251,4:164,5:438,6:79,7:5376,8:95,9:1389,10:10,11:495,12:1
- 48782 multiletter control sequences out of 65536+600000
- 88 fonts using 6917199 bytes
+ 1504 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 sub_mlist, 1 glyph, 275 attribute, 92 glue_spec, 138 attribute_list, 1 write, 1 pdf_action nodes
+   avail lists: 1:2,2:1009,3:251,4:164,5:438,6:79,7:6148,8:95,9:1389,10:14,11:497,12:1
+ 48872 multiletter control sequences out of 65536+600000
+ 90 fonts using 7180575 bytes
  86i,14n,115p,1832b,1874s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmroman12-italic.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (30 pages, 595818 bytes).
+Output written on main.pdf (29 pages, 601716 bytes).
 
-PDF statistics: 438 PDF objects out of 1000 (max. 8388607)
- 353 compressed objects within 4 object streams
+PDF statistics: 435 PDF objects out of 1000 (max. 8388607)
+ 351 compressed objects within 4 object streams
  88 named destinations out of 1000 (max. 1048576)
  49 words of extra memory for PDF output out of 10000 (max. 100000000)
 

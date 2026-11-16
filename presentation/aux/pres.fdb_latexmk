@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1793835143.58085 "pres.tex" "pres.pdf" "pres" 1793835149.12094 0
+["lualatex"] 1794753461.63864 "pres.tex" "pres.pdf" "pres" 1794753467.00767 0
   "/etc/texmf/tex/generic/config/language.dat" 1788356983.60566 2850 b86a6c5c7bf423c3902454d7e037ed0f ""
   "/home/paolo/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-italic.luc" 1785084000.01982 136299 81dfec24bbf14622db1629e3fd551117 ""
   "/home/paolo/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc" 1785064381.38796 127314 7c5efae986e60281c7ad546cf8ed9a14 ""
@@ -327,14 +327,15 @@
   "/usr/share/texmf-dist/tex/luatex/luaotfload/luaotfload.lua" 1775415801 13566 16df94dd2de231b2bca0aaa0190941fe ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1792593924 5385490 8673be925240dc2054d816ce847ba982 ""
   "/var/lib/texmf/web2c/luahbtex/lualatex.fmt" 1792593917 5660320 6eb139e4aa32812856570795124dba69 ""
-  "SUSY_levels.png" 1792532337 67118 d2bd002eecaba7490876006d106ff693 ""
-  "aux/pres.aux" 1793835148.45394 5844 a40cf07f8bd44db5a5981a7ce558d547 "lualatex"
-  "aux/pres.nav" 1793835148.45794 3760 c5df3c70426fa86973ee4c1e8d69e51f "lualatex"
-  "aux/pres.out" 1793835148.45694 462 1018de70bab446a4a41c4c2005ce6196 "lualatex"
+  "aux/pres.aux" 1794753466.34487 5457 86aebfc5ed9f0823494c12cfff7f6f88 "lualatex"
+  "aux/pres.nav" 1794753466.34757 3481 a6b8688b8daef58d2e2f95a8cb640bc7 "lualatex"
+  "aux/pres.out" 1794753466.34757 462 1018de70bab446a4a41c4c2005ce6196 "lualatex"
+  "broken_SUSY.png" 1794406981.90418 59242 242ee29ab97c1ec9cc84595ee93752ca ""
   "gen_well.png" 1793749414.62866 31587 df5ddf62fc441cf68e3cd59e6c3626e0 ""
   "logounito.png" 1735263496 145482 6b2ace8244b19690fc37e9c6e1373e54 ""
-  "pres.tex" 1793835142.17194 26804 cb08297ceb93c7055317201fa0d26b01 ""
+  "pres.tex" 1794753453.22457 35002 ffa7ac4b56684faa9364d2a0a08496e9 ""
   "shape_inv.png" 1793401473.84564 43220 0abff28de5e4648ffc6234e86105a6ae ""
+  "unbroken_SUSY.png" 1794406949.20532 65472 320b4ef79b4335c2e762ee4cd675d081 ""
   (generated)
   "aux/pres.aux"
   "aux/pres.log"

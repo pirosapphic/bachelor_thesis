@@ -6,9 +6,10 @@
 \usepackage{booktabs}
 \usepackage{subfigure}
 \usepackage{geometry}
-\geometry{a4paper,top=3cm,bottom=3cm,left=3.5cm,right=3.5cm,heightrounded,bindingoffset=3mm}
+\geometry{a4paper,top=3cm,bottom=3cm,left=3.8cm,right=3.5cm,heightrounded,bindingoffset=0mm}
 \usepackage{multicol}
 \usepackage{graphicx,xcolor}
+\usepackage{epigraph}
 \usepackage{fancyhdr}
 \renewcommand{\headrulewidth}{0pt}
 \usepackage{lipsum}
@@ -69,8 +70,8 @@
     linkcolor=black,
     filecolor=red,
     %citecolor=redp,
-    citecolor=gray,
-    urlcolor=bluep,
+    citecolor=black,
+    urlcolor=black,
 }
 
 \usepackage{datetime}
@@ -91,15 +92,12 @@ August\or September\or October\or November\or December\fi\ \number\year
 
 \fancypagestyle{body}{
     \pagenumbering{arabic}
-    \fancyhead[LE,RO]{
-    }
+    %\fancyhead[LE,RO]{
+    %}
     \fancyhead[C]{}
-    \fancyhead[LE,RO]{\thepage}
-    \fancyhead[RE]{
+    \fancyhead[R]{\thepage}
+    \fancyhead[L]{
 	\leftmark
-    }
-    \fancyhead[LO]{
-	%\small{\textbf{Università degli studi di Torino}}
     }
     \fancyfoot[C]{}
     \renewcommand{\headrulewidth}{0.4pt}
@@ -209,21 +207,21 @@ August\or September\or October\or November\or December\fi\ \number\year
 
 \null
 
-\newpage
-\phantom{easter egg :)}
+%\newpage
+%\phantom{easter egg :)}
 \newpage
 \pagestyle{intro}
 \begin{abstract}%sottintende newpage
     \input{./chapters/abstract.tex}
 \end{abstract}%sottintende newpage
-\thispagestyle{empty}
-\phantom{vuota}
-\newpage
+%\thispagestyle{empty}
+%\phantom{miao}
+%\newpage
 \thispagestyle{empty}
 \tableofcontents
-\newpage
-\thispagestyle{empty}
-\phantom{vuota}
+%\newpage
+%\thispagestyle{empty}
+%\phantom{miao}
 \newpage
 \pagestyle{body}
 \thispagestyle{empty}
@@ -238,10 +236,8 @@ August\or September\or October\or November\or December\fi\ \number\year
 \printbibliography[heading=bibintoc, title={Bibliography}]
 
 
-%\printbibliography
-%\addcontentsline{toc}{chapter}{Bibliografia}
-
-%\input{chapters/Acknowledgements}
-
+\newpage
+\pagestyle{empty}
+\input{./chapters/ringraziamenti.tex}
 
 \end{document}
