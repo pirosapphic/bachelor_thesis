@@ -388,6 +388,16 @@ INPUT ./logounito.png
 INPUT ./logounito.png
 INPUT ./logounito.png
 INPUT ./logounito.png
+INPUT ./logounito.png
+INPUT ./logounito.png
+INPUT ./logounito.png
+INPUT ./logounito.png
+INPUT ./logounito.png
+INPUT ./logounito.png
+INPUT ./logounito.png
+INPUT ./logounito.png
+INPUT ./logounito.png
+INPUT ./logounito.png
 OUTPUT aux/pres.nav
 OUTPUT aux/pres.toc
 OUTPUT aux/pres.snm
