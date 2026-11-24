@@ -1,0 +1,188 @@
+\documentclass[11pt,aspectratio=169,handout]{beamer} 
+\usetheme{Antibes} % si possono modificare in tutti i modi possibili
+\usecolortheme{whale}
+\usefonttheme[onlymath]{serif}
+
+\definecolor{myTeal}{RGB}{31 122 140}
+\definecolor{myMutedTeal}{RGB}{1 22 70}
+\definecolor{myBlue}{RGB}{0 123 167}
+\definecolor{myLavender}{RGB}{118 108 127}
+\definecolor{myApricot}{RGB}{249 219 189}
+%\definecolor{myGreen}{RGB}{34 139 34}
+%\definecolor{myGreen}{RGB}{0 150 44}
+%\definecolor{myGreen}{RGB}{37 110 75}
+\definecolor{myGreen}{RGB}{19 96 55}
+%\definecolor{myGreen}{RGB}{43 129 88}
+
+\setbeamercolor{structure}{fg=myGreen} % bullet points
+\setbeamercolor{palette primary}{bg=myGreen, fg=white} % headers colour
+\setbeamercolor{titlelike}{fg=white} % titles colour 
+
+\setbeamertemplate{navigation symbols}{} % nasconde i pulsanti di navigazione
+\setbeamertemplate{headline}{} % navigazione in cima
+
+\usepackage{appendixnumberbeamer}
+\usepackage{mathtools}
+\usepackage{lipsum}
+
+% per l'handout
+% \usepackage{pgfpages}
+% \pgfpagesuselayout{4 on 1}[a4paper, border shrink = 5mm]
+
+\usepackage[utf8]{inputenc}
+\usepackage[italian]{babel}
+\usepackage{caption}
+
+\usepackage{chronosys}
+\setupchronoevent{textwidth=3cm, textstyle=\centering}
+
+\newtheorem{teo}[theorem]{Teorema}
+\newtheorem{de}[theorem]{Definizione}
+\newtheorem{no}[theorem]{Nota}
+\setbeamercolor{block title}{bg=myGreen,fg=white} 
+
+\newcommand{\COMMENT}[1]{} %comment block
+\usepackage{amsmath,physics}
+
+\title{\textbf{Thesis Title}}
+\author{Name Surname \\ Relatore/trice: Cool Guy}
+\date{67 November 4200}
+
+\begin{document}
+
+\section{Intro}
+
+\begin{frame}[plain] %Frames are slides
+    \centering
+    \includegraphics[width=2cm]{logounito.png}\par
+    \maketitle
+\end{frame}
+%------------------------------------------------------------------------------
+\setbeamertemplate{footline}{ % this sets the headers & footers
+    \hspace{0.5cm}
+    \includegraphics[width=0.7cm]{logounito.png}
+    \hfill%
+    \usebeamercolor[fg]{page number in head/foot}%
+    \usebeamerfont{page number in head/foot}%
+    \insertframenumber\,/\,\inserttotalframenumber\kern1em\vskip2pt% pag/tot
+}
+%------------------------------------------------------------------------------
+\begin{frame}{Introduction}
+    \begin{columns}[t]
+        \column{.50\textwidth}        
+        \phantom{miao}\\
+        Sample text Sample text. Sample text. Sample text. Sample text. Sample text. 
+        Sample text Sample text. Sample text. Sample text. Sample text. Sample text. 
+        Sample text Sample text. Sample text. Sample text. Sample text. Sample text. 
+        Sample text Sample text. Sample text. Sample text. Sample text. Sample text. 
+        Sample text Sample text. Sample text. Sample text. Sample text. Sample text. 
+        Sample text Sample text. Sample text. Sample text. Sample text. Sample text. 
+        Sample text Sample text. Sample text. 
+        \column{.45\textwidth}
+        \begin{block}{\textbf{Indice}} 
+            \begin{enumerate}
+                \item Algebra di Supersimmetria.
+                \item Hamiltoniane \textit{partner}.
+                \item \textit{Shape invariance}.
+                \item Metodo SWKB.
+            \end{enumerate}    
+        \end{block}
+    \end{columns}
+\end{frame}
+%------------------------------------------------------------------------------
+\begin{frame}{Indice}
+    \begin{columns}       
+        \column{.55\textwidth}
+       \begin{enumerate}
+           \item Algebra di Supersimmetria.
+               \vspace{0.3cm}
+           \item Hamiltoniane \textit{partner} supersimmetriche:
+               \begin{itemize}
+                   \item Rapporto tra autostati e tra autovalori;
+                  \item Spettri discreti;
+                  \item Supersimmetria rotta e non rotta;
+                  \item Esempio: la buca infinita di potenziale.
+                \end{itemize}
+        \end{enumerate}
+        %\vspace{0.3cm}
+        \column{.45\textwidth}
+        \begin{enumerate}
+            \setcounter{enumi}{2} 
+            \item \textit{Shape invariance}:
+                \begin{itemize}
+                    \item Operatori scala generalizzati;
+                    \item Esempio: l'oscillatore armonico isotropo.
+                \end{itemize}
+                \vspace{0.3cm}
+            \item Metodo SWKB:
+                \begin{itemize}
+                    \item SWKB del primo ordine;
+                    \item SWKB per potenziali \textit{shape invariant}.
+                \end{itemize}
+        \end{enumerate}
+    \end{columns}
+\end{frame}
+
+%------------------------------------------------------------------------------
+\appendix
+
+\setbeamertemplate{footline}{
+    \hspace{0.5cm}
+    \includegraphics[width=0.7cm]{logounito.png}
+    \hfill%
+}
+
+\section*{Thank you!}
+%------------------------------------------------------------------------------
+\begin{frame}[plain]
+    \centering \Large
+    \vspace{1.5cm}
+
+    Grazie per l'attenzione!
+
+    \vspace{1cm}
+
+    \includegraphics[width=2cm]{logounito.png}
+\end{frame}
+%------------------------------------------------------------------------------
+        \begin{frame}[plain]
+            \centering
+        \includegraphics[width=2cm]{logounito.png}
+        \end{frame}
+%------------------------------------------------------------------------------
+        
+
+%------------------------------------------------------------------------------
+%-------------------------------BACKUP-----------------------------------------
+%-------------------------------SLIDES-----------------------------------------
+%------------------------------------------------------------------------------
+\setbeamertemplate{footline}{ % this sets the headers & footers without number
+    \hspace{0.5cm}
+    \includegraphics[width=0.7cm]{logounito.png}
+    \hfill%
+    \usebeamercolor[fg]{page number in head/foot}%
+    \usebeamerfont{page number in head/foot}%
+    %\insertframenumber\,/\,\inserttotalframenumber\kern1em
+    \vskip2pt% pag/tot
+}
+
+\begin{frame}{Esempio: la buca infinita di potenziale/1}
+    Si consideri la buca infinita di potenziale, con un \textit{offset} energetico
+    tale da rendere lo stato fondamentale a energia nulla:
+    $$V_1(x)=\begin{dcases}
+        -\frac{\pi^2\hbar^2}{2mL^2}&\text{se } 0\leq x\leq L\\
+        \infty&\text{altrimenti}
+    \end{dcases},
+    $$
+    i cui autovalori e autofunzioni sono ben noti
+    $$
+    E^{(1)}_n = \frac{\pi^2\hbar^2}{2mL^2}n(n+2),\quad
+    \psi^{(1)}_n(x)=\sqrt{\frac{2}{L}}\sin\left(\frac{(n+1)\pi x}{L}\right),\;
+    \text{con }n=0,1,2,3...$$
+    Dallo stato fondamentale si può ricavare il superpotenziale corrispondente
+    a $V_1$:
+    $$W(x) = -\frac{\hbar}{\sqrt{2m}}\frac{\psi'^{(1)}_0(x)}{\psi_0^{(1)}(x)} = 
+    -\frac{\hbar\pi}{L\sqrt{2m}}\cot\left(\frac{\pi x}{L}\right).
+    $$
+\end{frame}
+\end{document}
